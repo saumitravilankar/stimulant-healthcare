@@ -144,14 +144,7 @@ function Footer() {
             </div>
           </div>
           <div className="text-center pt-30 pb-30 main-bg mt-80">
-            <p className="fz-14">
-              © 2024 InFolio is Proudly Powered by{" "}
-              <span className="underline main-color">
-                <a href="https://themeforest.net/user/UiCamp" target="_blank">
-                  UiCamp
-                </a>
-              </span>
-            </p>
+            <p className="fz-14">© 2024 All Rights Reserved By Stimulant Healthcare Private Limited </p>
           </div>
         </div>
       </div>
