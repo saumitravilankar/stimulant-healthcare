@@ -16,7 +16,7 @@ function Blog() {
               Read Latest <span className="fw-200">News</span>
             </h2>
             <div className="ml-auto">
-              <a href="/dark/blog-list" className="go-more">
+              <a href="/blogs" className="go-more">
                 <span className="text">View all posts</span>
                 <span className="icon ti-arrow-top-right"></span>
               </a>
@@ -43,7 +43,7 @@ function Blog() {
             <div className="col-lg-6">
               <div className="cont">
                 <h5 className="mb-10 underline">
-                  <a href="/dark/blog-details">
+                  <a href="/blogs/blog-details">
                     The Highly Creative UI/UX Workflow from a Silicon Valley.
                   </a>
                 </h5>
@@ -67,7 +67,7 @@ function Blog() {
             data-overlay-dark="4"
           >
             <div className="more ontop full-width">
-              <a href="/dark/blog-details">
+              <a href="/blogs/blog-details">
                 <span>
                   Read More <i className="fas fa-arrow-right ml-10"></i>
                 </span>
@@ -95,7 +95,7 @@ function Blog() {
             <div className="col-lg-6">
               <div className="cont">
                 <h5 className="mb-10 underline">
-                  <a href="/dark/blog-details">
+                  <a href="/blogs/blog-details">
                     Creativo Jóvenes: a Lead Designer&#39;s UI/UX Core
                     Checklist.
                   </a>
@@ -120,7 +120,7 @@ function Blog() {
             data-overlay-dark="4"
           >
             <div className="more ontop full-width">
-              <a href="/dark/blog-details">
+              <a href="/blogs/blog-details">
                 <span>
                   Read More <i className="fas fa-arrow-right ml-10"></i>
                 </span>
@@ -148,7 +148,7 @@ function Blog() {
             <div className="col-lg-6">
               <div className="cont">
                 <h5 className="mb-10 underline">
-                  <a href="/dark/blog-details">
+                  <a href="/blogs/blog-details">
                     Definitive Guide to Make a Daily More Productive Working
                     Flow.
                   </a>
@@ -173,7 +173,7 @@ function Blog() {
             data-overlay-dark="4"
           >
             <div className="more ontop full-width">
-              <a href="/dark/blog-details">
+              <a href="/blogs/blog-details">
                 <span>
                   Read More <i className="fas fa-arrow-right ml-10"></i>
                 </span>
