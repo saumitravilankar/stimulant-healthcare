@@ -149,167 +149,24 @@ function Navbar() {
                   <span className="rolling-text">About Us</span>
                 </a>
               </li>
-              <li
-                onMouseLeave={handleDropdownMouseLeave}
-                onMouseMove={handleDropdownMouseMove}
-                className="nav-item dropdown"
-              >
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <span className="rolling-text">Pages</span>
+              <li className="nav-item">
+                <a className="nav-link" href="/services" role="button">
+                  <span className="rolling-text">Services</span>
                 </a>
-                <ul className="dropdown-menu">
-                  <li className="dropdown-item">
-                    <a href="#0">
-                      About Us <i className="fas fa-angle-right icon-arrow"></i>
-                    </a>
-                    <ul className="dropdown-side">
-                      <li>
-                        <a className="dropdown-item" href="/dark/page-about">
-                          About Us 1
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="/dark/page-about2">
-                          About Us 2
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="/dark/page-about3">
-                          About Us 3
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="dropdown-item">
-                    <a href="#0">
-                      Services <i className="fas fa-angle-right icon-arrow"></i>
-                    </a>
-                    <ul className="dropdown-side">
-                      <li>
-                        <a className="dropdown-item" href="/dark/page-services">
-                          Services 1
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="dropdown-item"
-                          href="/dark/page-services2"
-                        >
-                          Services 2
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="dropdown-item"
-                          href="/dark/page-services-details"
-                        >
-                          Services Details
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="dropdown-item">
-                    <a href="#0">
-                      Contact Us{" "}
-                      <i className="fas fa-angle-right icon-arrow"></i>
-                    </a>
-                    <ul className="dropdown-side">
-                      <li>
-                        <a className="dropdown-item" href="/dark/page-contact">
-                          Contact Us 1
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="/dark/page-contact2">
-                          Contact Us 2
-                        </a>
-                      </li>
-                      <li>
-                        <a className="dropdown-item" href="/dark/page-contact3">
-                          Contact Us 3
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/dark/page-team">
-                      Our Team
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/dark/page-team-single">
-                      Team Details
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/dark/page-FAQS">
-                      FAQS
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/dark/page-error-404">
-                      Error 404
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li
-                onMouseLeave={handleDropdownMouseLeave}
-                onMouseMove={handleDropdownMouseMove}
-                className="nav-item dropdown"
-              >
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  <span className="rolling-text">Blogs</span>
-                </a>
-                <div className="dropdown-menu">
-                  <a className="dropdown-item" href="/dark/blog-classic">
-                    Blog Standerd
-                  </a>
-                  <a className="dropdown-item" href="/dark/blog-list">
-                    Blog List
-                  </a>
-                  <a className="dropdown-item" href="/dark/blog-list2">
-                    Blog List 2
-                  </a>
-                  <a className="dropdown-item" href="/dark/blog-details">
-                    Blog Details
-                  </a>
-                </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/dark/page-contact">
+                <a className="nav-link" href="/blogs" role="button">
+                  <span className="rolling-text">Blogs</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/contact-us">
                   <span className="rolling-text">Contact Us</span>
                 </a>
               </li>
             </ul>
           </div>
 
-          <div className="search-form">
-            <div className="form-group">
-              <input type="text" name="search" placeholder="Search" />
-              <button>
-                <span className="pe-7s-search"></span>
-              </button>
-            </div>
-            <div onClick={toggleSearch} className="search-icon">
-              <span className="pe-7s-search open-search"></span>
-              <span className="pe-7s-close close-search"></span>
-            </div>
-          </div>
           <div className="topnav">
             <div onClick={toggleMenu} className="menu-icon cursor-pointer">
               <span className="icon ti-align-right"></span>
