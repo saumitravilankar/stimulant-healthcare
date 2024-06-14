@@ -10,7 +10,7 @@ import Script from "next/script";
 import Intro from "@/components/dark/about2/Intro";
 import Marquee from "@/components/dark/about/Marquee";
 import Intro2 from "@/components/dark/about/Intro2";
-import Testimonials from "@/components/dark/about/Testimonials";
+import Testimonials from "@/components/dark/creative-agency/Testimonials";
 import Team from "@/components/dark/about/Team";
 import Blog from "@/components/dark/about/Blog";
 

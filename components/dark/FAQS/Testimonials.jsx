@@ -1,19 +1,22 @@
-'use client';
-import React, { useEffect } from 'react';
-import { Navigation } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import data from '@/data/testimonials.json';
-import loadBackgroudImages from '@/common/loadBackgroudImages';
+"use client";
+import React, { useEffect } from "react";
+import { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import data from "@/data/testimonials.json";
+import loadBackgroudImages from "@/common/loadBackgroudImages";
 
 function Testimonials() {
   const swiperOptions = {
     modules: [Navigation],
-    navigation: {
-      nextEl: '.swiper-arrow-control .swiper-button-next',
-      nextEl: '.swiper-arrow-control .swiper-button-prev',
-    },
     spaceBetween: 30,
+    slidesPerView: 1,
+
+    speed: 1000,
     loop: true,
+    navigation: {
+      nextEl: ".swiper-arrow-control .swiper-button-next",
+      prevEl: ".swiper-arrow-control .swiper-button-prev",
+    },
   };
   useEffect(() => {
     loadBackgroudImages();

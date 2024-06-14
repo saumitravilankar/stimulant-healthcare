@@ -1,17 +1,20 @@
-'use client';
-import React from 'react';
-import { Navigation } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import data from '@/data/testimonials.json';
+"use client";
+import React from "react";
+import { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import data from "@/data/testimonials.json";
 
 function Testimonials() {
   const swiperOptions = {
     modules: [Navigation],
-    loop: true,
     spaceBetween: 30,
+    slidesPerView: 1,
+
+    speed: 1000,
+    loop: true,
     navigation: {
-      nextEl: '.swiper-arrow-control swiper-button-next',
-      prevEl: '.swiper-arrow-control swiper-button-prev',
+      nextEl: ".swiper-arrow-control .swiper-button-next",
+      prevEl: ".swiper-arrow-control .swiper-button-prev",
     },
   };
   return (
