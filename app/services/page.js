@@ -1,5 +1,5 @@
 import generateStylesheetObject from "@/common/generateStylesheetsObject";
-import Footer from "@/components/dark/modern-agency/Footer";
+import Footer from "@/components/dark/blog-list/Footer";
 import Lines from "@/components/dark/common/Lines";
 import ProgressScroll from "@/components/dark/common/ProgressScroll";
 import Cursor from "@/components/dark/common/cusor";
@@ -7,14 +7,15 @@ import LoadingScreen from "@/components/dark/common/loader";
 import Navbar from "@/components/dark/creative-agency/Navbar";
 import Script from "next/script";
 import Testimonials from "@/components/dark/FAQS/Testimonials";
-import Blog from "@/components/dark/services/Blog";
+import Blog from "@/components/dark/about/Blog";
 import Header from "@/components/dark/services2/Header";
 import Services from "@/components/dark/services2/Services";
 import MainFeat from "@/components/dark/services2/MainFeat";
 import Brands from "@/components/dark/services2/Brands";
+import Marquee from "@/components/dark/services/Marquee";
 
 export const metadata = {
-  title: "Infolio",
+  title: "Stimulant Healthcare Pvt. Ltd.",
   icons: {
     icon: "/dark/assets/imgs/favicon.ico",
     shortcut: "/dark/assets/imgs/favicon.ico",
@@ -41,6 +42,7 @@ export default function ServicesPage() {
           <main className="main-bg">
             <Header />
             <Services />
+            <Marquee />
             <MainFeat />
             <Testimonials />
             <Brands />

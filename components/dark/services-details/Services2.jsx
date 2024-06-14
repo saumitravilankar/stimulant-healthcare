@@ -12,7 +12,7 @@ function Services2() {
               What We Have <span className="fw-200">to Offer</span>
             </h2>
             <div className="ml-auto">
-              <a href="/dark/page-services" className="go-more">
+              <a href="/services" className="go-more">
                 <span className="text">View all services</span>
                 <span className="icon ti-arrow-top-right"></span>
               </a>

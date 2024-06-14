@@ -41,7 +41,7 @@ function Header() {
         <div className="text-center">
           <h1 className="fz-100">Contact Us.</h1>
           <div className="mt-15">
-            <a href="/dark/home-main">Home</a>
+            <a href="/">Home</a>
             <span className="padding-rl-20">|</span>
             <span className="main-color">Contact</span>
           </div>

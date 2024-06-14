@@ -1,19 +1,19 @@
-'use client';
-import isInView from '@/common/isInView';
-import React, { useEffect } from 'react';
+"use client";
+import isInView from "@/common/isInView";
+import React, { useEffect } from "react";
 
 function Skills() {
   useEffect(() => {
-    window.addEventListener('scroll', handleShowProgressValues);
-    return () => window.removeEventListener('scroll', handleShowProgressValues);
+    window.addEventListener("scroll", handleShowProgressValues);
+    return () => window.removeEventListener("scroll", handleShowProgressValues);
   }, []);
 
   function handleShowProgressValues() {
     isInView({
-      selector: '.skill-progress .progres',
+      selector: ".skill-progress .progres",
       isElements: true,
       callback: (element) => {
-        element.style.width = element.getAttribute('data-value');
+        element.style.width = element.getAttribute("data-value");
       },
     });
   }
@@ -95,10 +95,10 @@ function Skills() {
                   </div>
                   <div className="mt-80">
                     <a
-                      href="#0"
+                      href="/contact-us"
                       className="butn-circle-text d-flex align-items-center"
                     >
-                      <h6 className="text">Try it for free</h6>
+                      <h6 className="text text-capitalize fw-400">Contact Us Today</h6>
                       <div>
                         <span className="circle">
                           <svg

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Process() {
   return (
@@ -11,7 +11,7 @@ function Process() {
               Business <span className="fw-200">Development</span>
             </h2>
             <div className="ml-auto">
-              <a href="/dark/page-about2" className="go-more">
+              <a href="/about-us" className="go-more">
                 <span className="text">View More</span>
                 <span className="icon ti-arrow-top-right"></span>
               </a>
@@ -28,16 +28,6 @@ function Process() {
               Clarifying and translating insights into foundation and creative
               approach
             </p>
-            <div className="o-hidden">
-              <a href="/dark/page-about2" className="rmore to-in mt-30">
-                <span className="sub-title">Read More</span>
-                <img
-                  src="/dark/assets/imgs/arrow-right.png"
-                  alt=""
-                  className="icon-img-20 ml-5"
-                />
-              </a>
-            </div>
           </div>
           <div className="col-lg-3 col-md-6 item md-mb50">
             <div className="icon-img-60 mb-30">
@@ -48,16 +38,6 @@ function Process() {
               Clarifying and translating insights into foundation and creative
               approach
             </p>
-            <div className="o-hidden">
-              <a href="/dark/page-about2" className="rmore to-in mt-30">
-                <span className="sub-title">Read More</span>
-                <img
-                  src="/dark/assets/imgs/arrow-right.png"
-                  alt=""
-                  className="icon-img-20 ml-5"
-                />
-              </a>
-            </div>
           </div>
           <div className="col-lg-3 col-md-6 item sm-mb50">
             <div className="icon-img-60 mb-30">
@@ -68,16 +48,6 @@ function Process() {
               Clarifying and translating insights into foundation and creative
               approach
             </p>
-            <div className="o-hidden">
-              <a href="/dark/page-about2" className="rmore to-in mt-30">
-                <span className="sub-title">Read More</span>
-                <img
-                  src="/dark/assets/imgs/arrow-right.png"
-                  alt=""
-                  className="icon-img-20 ml-5"
-                />
-              </a>
-            </div>
           </div>
           <div className="col-lg-3 col-md-6 item">
             <div className="icon-img-60 mb-30">
@@ -88,16 +58,6 @@ function Process() {
               Clarifying and translating insights into foundation and creative
               approach
             </p>
-            <div className="o-hidden">
-              <a href="/dark/page-about2" className="rmore to-in mt-30">
-                <span className="sub-title">Read More</span>
-                <img
-                  src="/dark/assets/imgs/arrow-right.png"
-                  alt=""
-                  className="icon-img-20 ml-5"
-                />
-              </a>
-            </div>
           </div>
         </div>
       </div>

@@ -1,15 +1,15 @@
-'use client';
-import React, { useEffect, useLayoutEffect } from 'react';
-import loadBackgroudImages from '@/common/loadBackgroudImages';
+"use client";
+import React, { useEffect, useLayoutEffect } from "react";
+import loadBackgroudImages from "@/common/loadBackgroudImages";
 function Slider() {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
-    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=2.5');
+    tl.fromTo(".header", { y: 200 }, { y: 0 }, "+=2.5");
     tl.fromTo(
-      '.header .container',
+      ".header .container",
       { opacity: 0, translateY: 40 },
       { opacity: 1, translateY: 0 },
-      '-=0'
+      "-=0"
     );
 
     // Cleanup function
@@ -60,12 +60,6 @@ function Slider() {
                       <h6 className="fz-16">August 6, 2021</h6>
                     </a>
                   </div>
-                </div>
-              </div>
-              <div className="right-info ml-auto">
-                <div>
-                  <span className="pe-7s-comment fz-18 mr-10"></span>
-                  <span className="opacity-7">02 Comments</span>
                 </div>
               </div>
             </div>

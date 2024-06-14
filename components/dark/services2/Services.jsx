@@ -78,7 +78,7 @@ function Services() {
                 <img src="/dark/assets/imgs/works/1/1.jpg" alt="" />
               </div>
               <div className="more text-u ls1 fz-12">
-                <a href="/dark/page-services-details">
+                <a href="/services/services-details">
                   View Details <i className="ml-15 ti-arrow-top-right"></i>
                 </a>
               </div>
@@ -96,7 +96,7 @@ function Services() {
                 <img src="/dark/assets/imgs/works/1/2.jpg" alt="" />
               </div>
               <div className="more text-u ls1 fz-12">
-                <a href="/dark/page-services-details">
+                <a href="/services/services-details">
                   View Details <i className="ml-15 ti-arrow-top-right"></i>
                 </a>
               </div>
@@ -114,7 +114,7 @@ function Services() {
                 <img src="/dark/assets/imgs/works/1/3.jpg" alt="" />
               </div>
               <div className="more text-u ls1 fz-12">
-                <a href="/dark/page-services-details">
+                <a href="/services/services-details">
                   View Details <i className="ml-15 ti-arrow-top-right"></i>
                 </a>
               </div>
@@ -132,7 +132,7 @@ function Services() {
                 <img src="/dark/assets/imgs/works/1/4.jpg" alt="" />
               </div>
               <div className="more text-u ls1 fz-12">
-                <a href="/dark/page-services-details">
+                <a href="/services/services-details">
                   View Details <i className="ml-15 ti-arrow-top-right"></i>
                 </a>
               </div>
@@ -150,7 +150,7 @@ function Services() {
                 <img src="/dark/assets/imgs/works/1/5.jpg" alt="" />
               </div>
               <div className="more text-u ls1 fz-12">
-                <a href="/dark/page-services-details">
+                <a href="/services/services-details">
                   View Details <i className="ml-15 ti-arrow-top-right"></i>
                 </a>
               </div>

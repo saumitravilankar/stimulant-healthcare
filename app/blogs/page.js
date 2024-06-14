@@ -10,7 +10,7 @@ import Navbar from "@/components/dark/creative-agency/Navbar";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Infolio",
+  title: "Stimulant Healthcare Pvt. Ltd.",
   icons: {
     icon: "/dark/assets/imgs/favicon.ico",
     shortcut: "/dark/assets/imgs/favicon.ico",

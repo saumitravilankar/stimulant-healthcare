@@ -130,8 +130,17 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg bord blur">
         <div className="container">
-          <a className="logo icon-img-100" href="/">
-            <img src="/dark/assets/imgs/logo-light.png" alt="logo" />
+          <a
+            className="logo"
+            href="/"
+            style={{
+              width: "140px",
+              paddingTop: "10px",
+              paddingBottom: "10px",
+              paddingLeft: "20px",
+            }}
+          >
+            <img src="/dark/assets/imgs/stimulant-logo.png" alt="logo" />
           </a>
 
           <div
@@ -176,8 +185,15 @@ function Navbar() {
       </nav>
 
       <div className={`hamenu ${isOpen == true ? "open" : ""}`}>
-        <div className="logo icon-img-100">
-          <img src="/dark/assets/imgs/logo-light.png" alt="" />
+        <div
+          className="logo"
+          style={{
+            width: "110px",
+            marginTop: "-20px",
+            paddingBottom: "10px",
+          }}
+        >
+          <img src="/dark/assets/imgs/stimulant-logo.png" alt="" />
         </div>
         <div
           onClick={closeMenu}
@@ -198,529 +214,71 @@ function Navbar() {
                   <li
                     onMouseLeave={handleMouseLeave}
                     onMouseEnter={handleMouseEnter}
-                    onClick={toggleSubMenu}
                   >
                     <div className="o-hidden">
                       <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Home">
-                          Home
-                        </span>{" "}
-                        <i></i>
+                        <a href="/">
+                          <span className="fill-text" data-text="Home">
+                            Home
+                          </span>
+                        </a>
                       </div>
-                    </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <a href="/dark/home-main" className="sub-link">
-                            Main Home
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-startup-onepage"
-                            className="sub-link"
-                          >
-                            Modern Startup
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-creative-agency"
-                            className="sub-link"
-                          >
-                            Creative Agency
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-modern-agency"
-                            className="sub-link"
-                          >
-                            Modern Agency
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-creative-portfolio"
-                            className="sub-link"
-                          >
-                            Creative Portfolio
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-digital-agency"
-                            className="sub-link"
-                          >
-                            Digital Agency
-                          </a>
-                        </li>
-                        <li>
-                          <a href="/dark/home-freelancer" className="sub-link">
-                            Freelancer
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-personal-vcard"
-                            className="sub-link"
-                          >
-                            Personal vCard
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-minimal-portfolio"
-                            className="sub-link"
-                          >
-                            Minimal Portfolio
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="/dark/home-asymmetric-portfolio"
-                            className="sub-link"
-                          >
-                            Asymmetric Portfolio
-                          </a>
-                        </li>
-                      </ul>
                     </div>
                   </li>
                   <li
                     onMouseLeave={handleMouseLeave}
                     onMouseEnter={handleMouseEnter}
-                    onClick={toggleSubMenu}
                   >
                     <div className="o-hidden">
                       <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Pages">
-                          Pages
-                        </span>{" "}
-                        <i></i>
+                        <a href="/about-us">
+                          <span className="fill-text" data-text="About Us">
+                            About Us
+                          </span>
+                        </a>
                       </div>
-                    </div>
-                    <div className="sub-menu no-bord">
-                      <ul>
-                        <li onClick={toggleSubMenu2}>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span className="fill-text" data-text="About Us">
-                                About Us
-                              </span>{" "}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a href="/dark/page-about" className="sub-link">
-                                  About Us v1
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-about2"
-                                  className="sub-link"
-                                >
-                                  About Us v2
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-about3"
-                                  className="sub-link"
-                                >
-                                  About Us v3
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li onClick={toggleSubMenu2}>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span className="fill-text" data-text="Services">
-                                Services
-                              </span>{" "}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a
-                                  href="/dark/page-services"
-                                  className="sub-link"
-                                >
-                                  Services v1
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-services2"
-                                  className="sub-link"
-                                >
-                                  Services v2
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-services-details"
-                                  className="sub-link"
-                                >
-                                  Services Details
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li onClick={toggleSubMenu2}>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span className="fill-text" data-text="Contact">
-                                Contact
-                              </span>{" "}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a
-                                  href="/dark/page-contact"
-                                  className="sub-link"
-                                >
-                                  Contact v1
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-contact2"
-                                  className="sub-link"
-                                >
-                                  Contact v2
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-contact3"
-                                  className="sub-link"
-                                >
-                                  Contact v3
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li onClick={toggleSubMenu2}>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span className="fill-text" data-text="Team">
-                                Team
-                              </span>{" "}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a href="/dark/page-team" className="sub-link">
-                                  Our Team
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-team-single"
-                                  className="sub-link"
-                                >
-                                  Team Details
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li onClick={toggleSubMenu2}>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span className="fill-text" data-text="Others">
-                                Others
-                              </span>{" "}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a href="/dark/page-FAQS" className="sub-link">
-                                  FAQS
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/page-error-404"
-                                  className="sub-link"
-                                >
-                                  Error 404
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                      </ul>
                     </div>
                   </li>
                   <li
                     onMouseLeave={handleMouseLeave}
                     onMouseEnter={handleMouseEnter}
-                    onClick={toggleSubMenu}
                   >
                     <div className="o-hidden">
                       <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Portfolio">
-                          Portfolio
-                        </span>{" "}
-                        <i></i>
+                        <a href="/services">
+                          <span className="fill-text" data-text="services">
+                            services
+                          </span>
+                        </a>
                       </div>
-                    </div>
-                    <div className="sub-menu no-bord">
-                      <ul>
-                        <li onClick={toggleSubMenu2}>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span
-                                className="fill-text"
-                                data-text="Portfolio Type"
-                              >
-                                Portfolio Type
-                              </span>{" "}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a
-                                  href="/dark/portfolio-standard"
-                                  className="sub-link"
-                                >
-                                  Standerd
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/portfolio-gallery"
-                                  className="sub-link"
-                                >
-                                  Gallery
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/portfolio-metro"
-                                  className="sub-link"
-                                >
-                                  Metro
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dark/masonry" className="sub-link">
-                                  Masonry
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/portfolio-caption-curso"
-                                  className="sub-link"
-                                >
-                                  Caption Cursor
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dark/outline" className="sub-link">
-                                  Outline
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/portfolio-parallax"
-                                  className="sub-link"
-                                >
-                                  Parallax
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/portfolio-sticky"
-                                  className="sub-link"
-                                >
-                                  Sticky
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li onClick={toggleSubMenu2}>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span className="fill-text" data-text="Showcases">
-                                Showcases
-                              </span>{" "}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a
-                                  href="/dark/showcase-fullscreen"
-                                  className="sub-link"
-                                >
-                                  Parallax Slider
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/showcase-carousel"
-                                  className="sub-link"
-                                >
-                                  Showcase Carousel
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/showcase-half-slider"
-                                  className="sub-link"
-                                >
-                                  Creative Slider
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/showcase-interactive-full"
-                                  className="sub-link"
-                                >
-                                  Interactive Full
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/showcase-interactive-center"
-                                  className="sub-link"
-                                >
-                                  Interactive Center
-                                </a>
-                              </li>
-                              <li>
-                                <a
-                                  href="/dark/showcase-interactive-vertical"
-                                  className="sub-link"
-                                >
-                                  Interactive Vertical
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li onClick={toggleSubMenu2}>
-                          <div className="o-hidden">
-                            <div className="link cursor-pointer sub-dmenu">
-                              <span
-                                className="fill-text"
-                                data-text="Portfolio Single"
-                              >
-                                Portfolio Single
-                              </span>{" "}
-                              <i></i>
-                            </div>
-                          </div>
-                          <div className="sub-menu2">
-                            <ul>
-                              <li>
-                                <a href="/dark/project1" className="sub-link">
-                                  project1
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dark/project2" className="sub-link">
-                                  project2
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dark/project3" className="sub-link">
-                                  project3
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dark/project4" className="sub-link">
-                                  project4
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dark/project5" className="sub-link">
-                                  project5
-                                </a>
-                              </li>
-                              <li>
-                                <a href="/dark/project6" className="sub-link">
-                                  project6
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                        </li>
-                      </ul>
                     </div>
                   </li>
                   <li
                     onMouseLeave={handleMouseLeave}
                     onMouseEnter={handleMouseEnter}
-                    onClick={toggleSubMenu}
                   >
                     <div className="o-hidden">
                       <div className="link cursor-pointer dmenu">
-                        <span className="fill-text" data-text="Blogs">
-                          Blogs
-                        </span>{" "}
-                        <i></i>
+                        <a href="/blogs">
+                          <span className="fill-text" data-text="blogs">
+                            blogs
+                          </span>
+                        </a>
                       </div>
-                    </div>
-                    <div className="sub-menu">
-                      <ul>
-                        <li>
-                          <a className="sub-link" href="/dark/blog-classic">
-                            Standard
-                          </a>
-                        </li>
-                        <li>
-                          <a className="sub-link" href="/dark/blog-list">
-                            Blog List
-                          </a>
-                        </li>
-                        <li>
-                          <a className="sub-link" href="/dark/blog-list2">
-                            Blog List 2
-                          </a>
-                        </li>
-                        <li>
-                          <a className="sub-link" href="/dark/blog-details">
-                            Blog Details
-                          </a>
-                        </li>
-                      </ul>
                     </div>
                   </li>
                   <li
                     onMouseLeave={handleMouseLeave}
                     onMouseEnter={handleMouseEnter}
-                    onClick={toggleSubMenu}
                   >
                     <div className="o-hidden">
-                      <a href="/dark/page-contact3" className="link">
-                        <span className="fill-text" data-text="Contact Us">
-                          Contact Us
-                        </span>
-                      </a>
+                      <div className="link cursor-pointer dmenu">
+                        <a href="/contact-us">
+                          <span className="fill-text" data-text="contact us">
+                            contact us
+                          </span>
+                        </a>
+                      </div>
                     </div>
                   </li>
                 </ul>

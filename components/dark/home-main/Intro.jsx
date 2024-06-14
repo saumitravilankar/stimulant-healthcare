@@ -24,7 +24,7 @@ function Intro() {
                     {' '}
                     reach us by clicking{' '}
                     <span className="underline">
-                      <a href="/dark/page-contact3" className="main-color">
+                      <a href="/contact-us" className="main-color">
                         here
                       </a>
                     </span>

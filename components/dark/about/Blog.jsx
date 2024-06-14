@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Blog() {
   return (
@@ -11,7 +11,7 @@ function Blog() {
               Read Latest <span className="fw-200">News</span>
             </h2>
             <div className="ml-auto">
-              <a href="/dark/blog-list2" className="go-more">
+              <a href="/blogs" className="go-more">
                 <span className="text">View all posts</span>
                 <span className="icon ti-arrow-top-right"></span>
               </a>
@@ -46,10 +46,10 @@ function Blog() {
                 <div className="col-lg-6 col-md-7 cont valign">
                   <div className="full-width">
                     <div className="tags mb-15">
-                      <a href="/dark/blog-list">Marketing</a>
+                      <a href="/blogs/blog-details">Marketing</a>
                     </div>
                     <h5>
-                      <a href="/dark/blog-details">
+                      <a href="/blogs/blog-details">
                         Free advertising for your online business.
                       </a>
                     </h5>
@@ -88,11 +88,11 @@ function Blog() {
                 <div className="col-lg-6 col-md-7 cont valign">
                   <div className="full-width">
                     <div className="tags mb-15">
-                      <a href="/dark/blog-list">Marketing</a>
-                      <a href="/dark/blog-list">Design</a>
+                      <a href="/blogs/blog-details">Marketing</a>
+                      <a href="/blogs/blog-details">Design</a>
                     </div>
                     <h5>
-                      <a href="/dark/blog-details">
+                      <a href="/blogs/blog-details">
                         Business meeting 2023 in San Francisco.
                       </a>
                     </h5>

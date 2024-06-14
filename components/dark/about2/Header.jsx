@@ -27,7 +27,7 @@ function Header() {
                 lookout for talent.
               </h2>
               <div className="mt-30">
-                <a href="/dark/home-main">Home</a>
+                <a href="/">Home</a>
                 <span className="padding-rl-20">|</span>
                 <span className="main-color">About Us</span>
               </div>

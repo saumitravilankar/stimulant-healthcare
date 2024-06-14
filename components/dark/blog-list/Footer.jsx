@@ -1,16 +1,16 @@
-'use client';
-import React, { useEffect } from 'react';
+"use client";
+import React, { useEffect } from "react";
 
 function Footer() {
   useEffect(() => {
     if (window.innerWidth > 991) {
-      gsap.set('.footer-container', { yPercent: -50 });
+      gsap.set(".footer-container", { yPercent: -50 });
       const uncover = gsap.timeline({ paused: true });
-      uncover.to('.footer-container', { yPercent: 0, ease: 'none' });
+      uncover.to(".footer-container", { yPercent: 0, ease: "none" });
       ScrollTrigger.create({
-        trigger: 'main',
-        start: 'bottom bottom',
-        end: '+=50%',
+        trigger: "main",
+        start: "bottom bottom",
+        end: "+=50%",
         animation: uncover,
         scrub: true,
       });
@@ -22,9 +22,20 @@ function Footer() {
         <div className="container ontop">
           <div className="row pb-30 bord-thin-bottom">
             <div className="col-lg-5">
-              <div className="logo icon-img-120">
-                <img src="/dark/assets/imgs/logo-light.png" alt="" />
-              </div>
+              <span className="sideup-text">
+                <span className="up-text main-color">
+                  <span
+                    className=" fz-30 fw-600 text-uppercase"
+                    style={{ minWidth: "max-content" }}
+                  >
+                    Stimulant Healthcare
+                  </span>
+                  <br />
+                  <span className=" fw-500 fz-15 text-uppercase">
+                    Private Limited
+                  </span>
+                </span>
+              </span>
             </div>
             <div className="col-lg-7">
               <div className="social-media d-flex justify-content-end">
@@ -62,7 +73,7 @@ function Footer() {
                   </span>
                   <span className="sideup-text">
                     <span className="up-text underline">
-                      <a href="/dark/page-contact3" className="main-color">
+                      <a href="/contact-us" className="main-color">
                         Let’s get to work.
                       </a>
                     </span>
@@ -95,32 +106,26 @@ function Footer() {
                   <div className="col-6">
                     <ul className="rest fz-14">
                       <li className="mb-15">
-                        <a href="/dark/page-about3">About</a>
+                        <a href="/about-us">About</a>
                       </li>
                       <li className="mb-15">
-                        <a href="/dark/page-services">Services</a>
+                        <a href="/services">Services</a>
                       </li>
                       <li className="mb-15">
-                        <a href="/dark/blog-list2">Blog</a>
+                        <a href="/blogs">Blog</a>
                       </li>
                       <li>
-                        <a href="/dark/page-contact3">Contact</a>
+                        <a href="/contact-us">Contact</a>
                       </li>
                     </ul>
                   </div>
                   <div className="col-6">
                     <ul className="rest fz-14">
                       <li className="mb-15">
-                        <a href="/dark/page-FAQS">FAQS</a>
+                        <a href="#">Term & Conditions</a>
                       </li>
                       <li className="mb-15">
-                        <a href="/dark/page-about2">Term & Conditions</a>
-                      </li>
-                      <li className="mb-15">
-                        <a href="/dark/page-about2">Privacy policy</a>
-                      </li>
-                      <li>
-                        <a href="/dark/page-about2">Help</a>
+                        <a href="#">Privacy policy</a>
                       </li>
                     </ul>
                   </div>
@@ -140,7 +145,7 @@ function Footer() {
           </div>
           <div className="text-center pt-30 pb-30 main-bg mt-80">
             <p className="fz-14">
-              © 2024 InFolio is Proudly Powered by{' '}
+              © 2024 InFolio is Proudly Powered by{" "}
               <span className="underline main-color">
                 <a href="https://themeforest.net/user/UiCamp" target="_blank">
                   UiCamp

@@ -1,5 +1,5 @@
 import generateStylesheetObject from "@/common/generateStylesheetsObject";
-import Footer from "@/components/dark/modern-agency/Footer";
+import Footer from "@/components/dark/blog-list/Footer";
 import Lines from "@/components/dark/common/Lines";
 import ProgressScroll from "@/components/dark/common/ProgressScroll";
 import Cursor from "@/components/dark/common/cusor";
@@ -11,7 +11,7 @@ import Script from "next/script";
 import Map from "@/components/dark/contact3/Map";
 
 export const metadata = {
-  title: "Infolio",
+  title: "Stimulant Healthcare Pvt. Ltd.",
   icons: {
     icon: "/dark/assets/imgs/favicon.ico",
     shortcut: "/dark/assets/imgs/favicon.ico",

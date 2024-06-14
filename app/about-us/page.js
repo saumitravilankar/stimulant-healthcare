@@ -15,7 +15,7 @@ import Team from "@/components/dark/about/Team";
 import Blog from "@/components/dark/about/Blog";
 
 export const metadata = {
-  title: "Infolio",
+  title: "Stimulant Healthcare Pvt. Ltd.",
   icons: {
     icon: "/dark/assets/imgs/favicon.ico",
     shortcut: "/dark/assets/imgs/favicon.ico",

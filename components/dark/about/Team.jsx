@@ -1,5 +1,5 @@
-import React from 'react';
-import data from '@/data/team.json';
+import React from "react";
+import data from "@/data/team.json";
 
 function Team() {
   return (
@@ -11,12 +11,6 @@ function Team() {
             <h2 className="fw-600">
               Meet our <span className="fw-200">legends</span>
             </h2>
-            <div className="ml-auto">
-              <a href="/dark/page-team" className="go-more">
-                <span className="text">Join to us</span>
-                <span className="icon ti-arrow-top-right"></span>
-              </a>
-            </div>
           </div>
         </div>
         <div className="row">

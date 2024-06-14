@@ -10,7 +10,7 @@ function Blogs() {
               <div className="img">
                 <img src="/dark/assets/imgs/blog/b/7.jpg" alt="" />
                 <div className="tag sub-bg">
-                  <span>Envato</span>
+                  <span>Digital Marketing</span>
                   <div className="shap-right-bottom">
                     <svg
                       viewBox="0 0 11 11"
@@ -41,15 +41,15 @@ function Blogs() {
               </div>
               <div className="cont">
                 <div className="date fz-13 text-u ls1 mb-10 opacity-7">
-                  <a href="/dark/blog-details">30 august 2021</a>
+                  <a href="/blogs/blog-details">30 august 2021</a>
                 </div>
                 <h5>
-                  <a href="/dark/blog-details">
+                  <a href="/blogs/blog-details">
                     Creative advertising in our life became a info noise
                   </a>
                 </h5>
                 <a
-                  href="/dark/blog-details"
+                  href="/blogs/blog-details"
                   className="d-flex align-items-center mt-30"
                 >
                   <span className="text mr-15">Read More</span>
@@ -63,7 +63,7 @@ function Blogs() {
               <div className="img">
                 <img src="/dark/assets/imgs/blog/b/10.jpg" alt="" />
                 <div className="tag sub-bg">
-                  <span>Envato</span>
+                  <span>Graphic Designing</span>
                   <div className="shap-right-bottom">
                     <svg
                       viewBox="0 0 11 11"
@@ -94,15 +94,15 @@ function Blogs() {
               </div>
               <div className="cont">
                 <div className="date fz-13 text-u ls1 mb-10 opacity-7">
-                  <a href="/dark/blog-details">30 august 2021</a>
+                  <a href="/blogs/blog-details">30 august 2021</a>
                 </div>
                 <h5>
-                  <a href="/dark/blog-details">
+                  <a href="/blogs/blog-details">
                     Creative advertising in our life became a info noise
                   </a>
                 </h5>
                 <a
-                  href="/dark/blog-details"
+                  href="/blogs/blog-details"
                   className="d-flex align-items-center mt-30"
                 >
                   <span className="text mr-15">Read More</span>
@@ -116,7 +116,7 @@ function Blogs() {
               <div className="img">
                 <img src="/dark/assets/imgs/blog/b/1.jpg" alt="" />
                 <div className="tag sub-bg">
-                  <span>Envato</span>
+                  <span>Web Development</span>
                   <div className="shap-right-bottom">
                     <svg
                       viewBox="0 0 11 11"
@@ -147,15 +147,15 @@ function Blogs() {
               </div>
               <div className="cont">
                 <div className="date fz-13 text-u ls1 mb-10 opacity-7">
-                  <a href="/dark/blog-details">30 august 2021</a>
+                  <a href="/blogs/blog-details">30 august 2021</a>
                 </div>
                 <h5>
-                  <a href="/dark/blog-details">
+                  <a href="/blogs/blog-details">
                     We create some things for your success in growth
                   </a>
                 </h5>
                 <a
-                  href="/dark/blog-details"
+                  href="/blogs/blog-details"
                   className="d-flex align-items-center mt-30"
                 >
                   <span className="text mr-15">Read More</span>
@@ -169,7 +169,7 @@ function Blogs() {
               <div className="img">
                 <img src="/dark/assets/imgs/blog/b/9.jpg" alt="" />
                 <div className="tag sub-bg">
-                  <span>Envato</span>
+                  <span>SEO & PPC</span>
                   <div className="shap-right-bottom">
                     <svg
                       viewBox="0 0 11 11"
@@ -200,15 +200,15 @@ function Blogs() {
               </div>
               <div className="cont">
                 <div className="date fz-13 text-u ls1 mb-10 opacity-7">
-                  <a href="/dark/blog-details">30 august 2021</a>
+                  <a href="/blogs/blog-details">30 august 2021</a>
                 </div>
                 <h5>
-                  <a href="/dark/blog-details">
+                  <a href="/blogs/blog-details">
                     Creative advertising in our life became a info noise
                   </a>
                 </h5>
                 <a
-                  href="/dark/blog-details"
+                  href="/blogs/blog-details"
                   className="d-flex align-items-center mt-30"
                 >
                   <span className="text mr-15">Read More</span>
@@ -222,7 +222,7 @@ function Blogs() {
               <div className="img">
                 <img src="/dark/assets/imgs/blog/b/4.jpg" alt="" />
                 <div className="tag sub-bg">
-                  <span>Envato</span>
+                  <span>Marketing</span>
                   <div className="shap-right-bottom">
                     <svg
                       viewBox="0 0 11 11"
@@ -253,15 +253,15 @@ function Blogs() {
               </div>
               <div className="cont">
                 <div className="date fz-13 text-u ls1 mb-10 opacity-7">
-                  <a href="/dark/blog-details">30 august 2021</a>
+                  <a href="/blogs/blog-details">30 august 2021</a>
                 </div>
                 <h5>
-                  <a href="/dark/blog-details">
+                  <a href="/blogs/blog-details">
                     We create some things for your success in growth
                   </a>
                 </h5>
                 <a
-                  href="/dark/blog-details"
+                  href="/blogs/blog-details"
                   className="d-flex align-items-center mt-30"
                 >
                   <span className="text mr-15">Read More</span>
@@ -275,7 +275,7 @@ function Blogs() {
               <div className="img">
                 <img src="/dark/assets/imgs/blog/b/8.jpg" alt="" />
                 <div className="tag sub-bg">
-                  <span>Envato</span>
+                  <span>Advertising</span>
                   <div className="shap-right-bottom">
                     <svg
                       viewBox="0 0 11 11"
@@ -306,15 +306,15 @@ function Blogs() {
               </div>
               <div className="cont">
                 <div className="date fz-13 text-u ls1 mb-10 opacity-7">
-                  <a href="/dark/blog-details">30 august 2021</a>
+                  <a href="/blogs/blog-details">30 august 2021</a>
                 </div>
                 <h5>
-                  <a href="/dark/blog-details">
+                  <a href="/blogs/blog-details">
                     Creative advertising in our life became a info noise
                   </a>
                 </h5>
                 <a
-                  href="/dark/blog-details"
+                  href="/blogs/blog-details"
                   className="d-flex align-items-center mt-30"
                 >
                   <span className="text mr-15">Read More</span>

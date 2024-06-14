@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Services() {
   return (
@@ -11,6 +11,7 @@ function Services() {
                 <a
                   href="https://youtu.be/AzwC6umvd1s"
                   className="vid d-flex align-items-center"
+                  target="_blank"
                 >
                   <div className="icon">
                     <i className="fas fa-play main-color"></i>

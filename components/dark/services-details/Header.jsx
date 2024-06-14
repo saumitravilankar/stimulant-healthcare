@@ -29,9 +29,9 @@ function Header() {
         <div className="text-center">
           <h1>Web Development.</h1>
           <div className="mt-15">
-            <a href="/dark/home-main">Home</a>
+            <a href="/">Home</a>
             <span className="padding-rl-20">|</span>
-            <a href="/dark/page-services">Services</a>
+            <a href="/services">Services</a>
             <span className="padding-rl-20">|</span>
             <span className="main-color">Web Development</span>
           </div>

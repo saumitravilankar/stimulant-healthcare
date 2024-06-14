@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 function Marquee() {
   return (
     <section>
-      <div className="main-marq xlrg o-hidden">
+      <div className="main-marq xlrg mb-80 o-hidden">
         <div className="slide-har st1">
           <div className="box">
             <div className="item">

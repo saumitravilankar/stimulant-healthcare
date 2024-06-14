@@ -1,15 +1,15 @@
-'use client';
-import React, { useLayoutEffect } from 'react';
+"use client";
+import React, { useLayoutEffect } from "react";
 
 function Header() {
   useLayoutEffect(() => {
     const tl = gsap.timeline();
-    tl.fromTo('.header', { y: 200 }, { y: 0 }, '+=2.5');
+    tl.fromTo(".header", { y: 200 }, { y: 0 }, "+=2.5");
     tl.fromTo(
-      '.header .container',
+      ".header .container",
       { opacity: 0, translateY: 40 },
       { opacity: 1, translateY: 0 },
-      '-=0'
+      "-=0"
     );
 
     // Cleanup function
@@ -49,7 +49,11 @@ function Header() {
           <div className="col-lg-3 right-clumn">
             <div className="text-center">
               <div className="circle-button">
-                <a href="https://youtu.be/AzwC6umvd1s" className="vid">
+                <a
+                  href="https://youtu.be/AzwC6umvd1s"
+                  className="vid"
+                  target="_blank"
+                >
                   <div className="rotate-circle fz-30 text-u">
                     <svg className="textcircle" viewBox="0 0 500 500">
                       <defs>
