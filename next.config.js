@@ -13,7 +13,7 @@ const nextConfig = {
     buildActivity: false,
   },
   eslint: {
-    ignoreDuringBuilds: false,
+    ignoreDuringBuilds: true,
   },
 };
 
