@@ -9,7 +9,7 @@ import Script from "next/script";
 import Testimonials from "@/components/dark/FAQS/Testimonials";
 import Blog from "@/components/dark/about/Blog";
 import Header from "@/components/dark/services2/Header";
-import Services from "@/components/dark/services2/Services";
+import Services from "@/components/dark/modern-startup/Services";
 import MainFeat from "@/components/dark/services2/MainFeat";
 import Brands from "@/components/dark/services2/Brands";
 import Marquee from "@/components/dark/services/Marquee";

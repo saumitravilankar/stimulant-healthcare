@@ -63,32 +63,37 @@ function Skills() {
           <div className="col-lg-6 valign">
             <div className="content full-width">
               <div className="sec-head mb-30">
-                <h6 className="sub-title mb-15 main-color">Our Skills</h6>
-                <h2 className="text-u">
-                  The ultmiate guide to marketing success.
-                </h2>
+                <h6 className="sub-title mb-15 main-color">Our EXPERTISE</h6>
+                <h2 className="text-u">THE ULTIMATE GUIDE TO YOUR SUCCESS.</h2>
               </div>
               <div className="row justify-content-end">
                 <div className="col-lg-11">
                   <div className="text">
                     <p>
-                      We shifted our talents to frontier science because we
-                      wanted our work to have tangible, human-positive impact.
-                      Also, we get front row seats to the future.
+                      We harness our creativity and strategic insight to deliver
+                      impactful solutions for individuals, businesses, and
+                      communities. Our mission is to make a tangible, positive
+                      impact on every project we undertake.
                     </p>
                   </div>
                   <div className="mt-50">
                     <div className="skills-box">
                       <div className="skill-item mb-40">
-                        <h5 className="sub-title mb-15">UI / UX Design</h5>
+                        <h5 className="sub-title mb-15">DIGITAL MARKETING</h5>
                         <div className="skill-progress">
                           <div className="progres" data-value="90%"></div>
                         </div>
                       </div>
-                      <div className="skill-item">
-                        <h5 className="sub-title mb-15">Apps Development</h5>
+                      <div className="skill-item mb-40">
+                        <h5 className="sub-title mb-15">PUBLIC RELATIONS</h5>
                         <div className="skill-progress">
-                          <div className="progres" data-value="80%"></div>
+                          <div className="progres" data-value="85%"></div>
+                        </div>
+                      </div>
+                      <div className="skill-item">
+                        <h5 className="sub-title mb-15">HEALTHCARE SERVICES</h5>
+                        <div className="skill-progress">
+                          <div className="progres" data-value="95%"></div>
                         </div>
                       </div>
                     </div>
@@ -98,7 +103,9 @@ function Skills() {
                       href="/contact-us"
                       className="butn-circle-text d-flex align-items-center"
                     >
-                      <h6 className="text text-capitalize fw-400">Contact Us Today</h6>
+                      <h6 className="text text-capitalize fw-400">
+                        Contact Us Today
+                      </h6>
                       <div>
                         <span className="circle">
                           <svg

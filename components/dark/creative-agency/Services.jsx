@@ -1,5 +1,5 @@
-import React from 'react';
-import data from '@/data/services.json';
+import React from "react";
+import data from "@/data/services.json";
 
 function Services() {
   return (
@@ -21,13 +21,13 @@ function Services() {
         </div>
         <div className="row pt-30">
           {data.map((item, i) => (
-            <div key={i} className="col-lg-3 col-md-6 items">
+            <div key={i} className="col-lg-6 col-md-6 items">
               <div className="item-box bg md-mb50">
                 <div className="icon mb-40 opacity-5">
                   <img src={item.img} alt="" />
                 </div>
                 <h5 className="mb-15 text-u main-color">
-                  {item.title.split(' ')[0]} <br /> {item.title.split(' ')[1]}
+                  {item.title.split(":")[0]}
                 </h5>
                 <p>{item.desc}</p>
                 <a href={item.link} className="rmore mt-30">

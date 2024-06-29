@@ -1,26 +1,137 @@
 [
   {
-    "title": "Digital Product Design",
+    "title": "Digital Marketing: Megaphone to the Millennial",
+    "img": "/dark/assets/imgs/serv-icons/0.png",
+    "desc": "The digital powerhouse for your brand. Every detail matters.",
+    "link": "/services/digital-marketing",
+    "info": "Say goodbye to boring marketing tactics. We create online campaigns that resonate with millennials. From impactful social media strategies to eye-catching website enhancements, we'll make your brand shine online.",
+    "bulletPoints": [
+      "Expert Social Media Management",
+      "Engaging Website Design",
+      "Compelling Content Creation",
+      "Influencer Partnerships",
+      "Effective Paid Advertising",
+      "Insightful Analytics"
+    ]
+  },
+  {
+    "title": "Public Relations: Spin Doctors with Superpowers",
+    "img": "/dark/assets/imgs/serv-icons/1.png",
+    "desc": "Whisper smart, roar loud. We're your brand amplification experts.",
+    "link": "/services/public-relations",
+    "info": "Need to get your name out there? We're the PR superheroes you've been waiting for. We craft press releases that pack a punch and build relationships with journalists who can make your brand a household name.",
+    "bulletPoints": [
+      "Press Release Powerhouse",
+      "Media Matchmaking",
+      "Crisis Communication Calm",
+      "Brand Storytelling Experts",
+      "Reputation Rehabilitators",
+      "Influencer Introductions"
+    ]
+  },
+  {
+    "title": "ATL & BTL Activities: Think Outside the Billboard",
+    "img": "/dark/assets/imgs/serv-icons/2.png",
+    "desc": "We don't just do billboards, we bring marketing experiences that leave a lasting impression.",
+    "link": "/services/atl-btl-activities",
+    "info": "Forget boring old ads. We're the mad scientists of marketing, creating innovative ATL (Above-the-Line) and BTL (Below-the-Line) campaigns that are as unique as you are. Think guerilla marketing stunts, interactive experiences, and events that'll have people buzzing about your brand for months.",
+    "bulletPoints": [
+      "Creative Guerilla Marketing",
+      "Memorable Events",
+      "Engaging Experiences",
+      "Eye-catching Public Campaigns",
+      "Trend-setting Viral Videos",
+      "Unforgettable Brand Events"
+    ]
+  },
+  {
+    "title": "Personal Promotion: You, the Spotlight Stealer",
     "img": "/dark/assets/imgs/serv-icons/3.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
-    "link": "/services/services-details"
+    "desc": "We help you become the captivating brand YOU were always meant to be.",
+    "link": "/services/personal-promotion",
+    "info": "Ready to step into the spotlight? We help individuals like you craft a personal brand that shines brighter. From building a captivating online presence to mastering the art of self-promotion, we'll transform you into a brand that gets noticed (for all the right reasons).",
+    "bulletPoints": [
+      "Experts in Personal Branding",
+      "Strong Online Presence",
+      "Effective Public Speaking",
+      "Skilled Networkers",
+      "Media Training Experts",
+      "Stylish and Professional Image"
+    ]
   },
   {
-    "title": "Web Developments",
+    "title": "Branding: We Don't Just Make Logos, We Craft Identities",
     "img": "/dark/assets/imgs/serv-icons/4.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
-    "link": "/services/services-details"
+    "desc": "We'll give your brand a personality so strong, it'll need its own passport.",
+    "link": "/services/branding",
+    "info": "Your brand is more than just a logo, it's your story. We're the branding storytellers who help you craft a unique identity that resonates with your target audience. From developing a captivating brand voice to designing visuals that turn heads, we'll make your brand unforgettable.",
+    "bulletPoints": [
+      "Brand Storytelling Specialists",
+      "Logo & Visual Design",
+      "Brand Voice Architects",
+      "Messaging Marvels",
+      "Competitive Differentiation",
+      "Brand Consistency Champions"
+    ]
   },
   {
-    "title": "Branding Design",
+    "title": "Neighborhood Activities: Building Bridges, Not Walls",
     "img": "/dark/assets/imgs/serv-icons/5.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
-    "link": "/services/services-details"
+    "desc": "Sparking dialogue, fostering understanding, one event at a time.",
+    "link": "/services/neighborhood-activities",
+    "info": "From block parties to volunteer initiatives, we create vibrant neighborhood experiences that foster connection and build a stronger community spirit.",
+    "bulletPoints": [
+      "Community Events",
+      "Local Partnerships",
+      "Charitable Initiatives",
+      "Neighborhood Buzz",
+      "Strong Connections",
+      "Happy Neighbors, Happy You"
+    ]
   },
   {
-    "title": "UI-UX Design",
-    "img": "/dark/assets/imgs/serv-icons/5.png",
-    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
-    "link": "/services/services-details"
+    "title": "Insurance / Corporate Tie Up: Peace of Mind, Business Advantage",
+    "img": "/dark/assets/imgs/serv-icons/6.png",
+    "desc": "We don't just sell insurance, we create win-win partnerships that empower your business.",
+    "link": "/services/insurance-corporate-tie-up",
+    "info": "Get the best of both worlds! We connect you with the right insurance solutions, while also merging strategic corporate partnerships that unlock new opportunities.",
+    "bulletPoints": [
+      "Insurance Tailored to You",
+      "Risk Management Solutions",
+      "Corporate Alliances",
+      "Win-Win Partnerships",
+      "Growth & Security",
+      "Peace of Mind, Powered by Us"
+    ]
+  },
+  {
+    "title": "NABH / MJPJAY Quality Accreditations: More Than a Badge, a Commitment",
+    "img": "/dark/assets/imgs/serv-icons/1.png",
+    "desc": "Behind the badges, real people make a real difference.",
+    "link": "/services/quality-accreditations",
+    "info": "Looking for top-notch healthcare? Look for our badges! We proudly hold NABH and MJPJAY accreditations, guaranteeing the highest quality standards and exceptional care. We're not just bragging; these accreditations mean we're serious about quality healthcare!",
+    "bulletPoints": [
+      "World-Class Standards",
+      "Patient Safety First",
+      "Trustworthy Care",
+      "Accreditation Excellence",
+      "Your Wellbeing, Our Priority",
+      "Choose Quality, Choose Us"
+    ]
+  },
+  {
+    "title": "Home Healthcare: Comfort & Care, Delivered to Your Doorstep",
+    "img": "/dark/assets/imgs/serv-icons/2.png",
+    "desc": "Comfort and care delivered straight to your door (with a smile, of course!).",
+    "link": "/services/home-healthcare",
+    "info": "Recovering at home shouldn't be stressful. We provide compassionate and personalized home healthcare, ensuring comfort and well-being in the familiar surroundings of your own home. We bring quality healthcare to the comfort of your home. Feel better, faster, right where you belong!",
+    "bulletPoints": [
+      "Skilled Professionals",
+      "Personalized Care Plans",
+      "Comforting Environment",
+      "Recovery on Your Terms",
+      "Healing at Home",
+      "Because Home is Where the Heart Heals"
+    ]
   }
 ]

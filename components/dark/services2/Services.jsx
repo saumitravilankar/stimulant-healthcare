@@ -62,6 +62,16 @@ function Services() {
                 className="bg-img tab-img"
                 data-background="/dark/assets/imgs/works/1/5.jpg"
               ></div>
+              <div
+                id="tab-6"
+                className="bg-img tab-img"
+                data-background="/dark/assets/imgs/works/1/1.jpg"
+              ></div>
+              <div
+                id="tab-7"
+                className="bg-img tab-img"
+                data-background="/dark/assets/imgs/works/1/2.jpg"
+              ></div>
             </div>
           </div>
           <div className="col-lg-6 offset-lg-1 content">
@@ -71,8 +81,8 @@ function Services() {
               data-tab="tab-1"
             >
               <div className="info">
-                <h6 className="sub-title opacity-7">Development</h6>
-                <h4>Web Developments</h4>
+                <h6 className="sub-title opacity-7">Marketing</h6>
+                <h4>Digital Marketing</h4>
               </div>
               <div className="img">
                 <img src="/dark/assets/imgs/works/1/1.jpg" alt="" />
@@ -89,8 +99,8 @@ function Services() {
               data-tab="tab-2"
             >
               <div className="info">
-                <h6 className="sub-title opacity-7">UI-UX Design</h6>
-                <h4>UI / UX Designing</h4>
+                <h6 className="sub-title opacity-7">Relations</h6>
+                <h4>Public Relations</h4>
               </div>
               <div className="img">
                 <img src="/dark/assets/imgs/works/1/2.jpg" alt="" />
@@ -107,8 +117,8 @@ function Services() {
               data-tab="tab-3"
             >
               <div className="info">
-                <h6 className="sub-title opacity-7">Marketing</h6>
-                <h4>Digital Marketing</h4>
+                <h6 className="sub-title opacity-7">Activities</h6>
+                <h4>ATL & BTL Activities</h4>
               </div>
               <div className="img">
                 <img src="/dark/assets/imgs/works/1/3.jpg" alt="" />
@@ -125,8 +135,8 @@ function Services() {
               data-tab="tab-4"
             >
               <div className="info">
-                <h6 className="sub-title opacity-7">Graphic Design</h6>
-                <h4>Product Design</h4>
+                <h6 className="sub-title opacity-7">Promotions</h6>
+                <h4>Personal Promotion</h4>
               </div>
               <div className="img">
                 <img src="/dark/assets/imgs/works/1/4.jpg" alt="" />
@@ -144,7 +154,43 @@ function Services() {
             >
               <div className="info">
                 <h6 className="sub-title opacity-7">Marketing</h6>
-                <h4>Digital Marketing</h4>
+                <h4>Branding</h4>
+              </div>
+              <div className="img">
+                <img src="/dark/assets/imgs/works/1/5.jpg" alt="" />
+              </div>
+              <div className="more text-u ls1 fz-12">
+                <a href="/services/services-details">
+                  View Details <i className="ml-15 ti-arrow-top-right"></i>
+                </a>
+              </div>
+            </div>
+            <div
+              onMouseEnter={handleMouseEnter}
+              className="cluom"
+              data-tab="tab-6"
+            >
+              <div className="info">
+                <h6 className="sub-title opacity-7">Marketing</h6>
+                <h4>Branding</h4>
+              </div>
+              <div className="img">
+                <img src="/dark/assets/imgs/works/1/5.jpg" alt="" />
+              </div>
+              <div className="more text-u ls1 fz-12">
+                <a href="/services/services-details">
+                  View Details <i className="ml-15 ti-arrow-top-right"></i>
+                </a>
+              </div>
+            </div>
+            <div
+              onMouseEnter={handleMouseEnter}
+              className="cluom"
+              data-tab="tab-7"
+            >
+              <div className="info">
+                <h6 className="sub-title opacity-7">Marketing</h6>
+                <h4>Branding</h4>
               </div>
               <div className="img">
                 <img src="/dark/assets/imgs/works/1/5.jpg" alt="" />

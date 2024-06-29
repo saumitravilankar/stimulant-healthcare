@@ -8,31 +8,31 @@ function Marquee() {
           <div className="box">
             <div className="item">
               <h4 className="d-flex align-items-center">
-                <span>Amazing Design</span>
+                <span>Digital Marketing</span>
                 <span className="fz-50 ml-50 stroke icon">*</span>
               </h4>
             </div>
             <div className="item">
               <h4 className="d-flex align-items-center">
-                <span>Amazing Design</span>
+                <span>Public Relations</span>
                 <span className="fz-50 ml-50 stroke icon">*</span>
               </h4>
             </div>
             <div className="item">
               <h4 className="d-flex align-items-center">
-                <span>Amazing Design</span>
+                <span>Personal Promotion</span>
                 <span className="fz-50 ml-50 stroke icon">*</span>
               </h4>
             </div>
             <div className="item">
               <h4 className="d-flex align-items-center">
-                <span>Amazing Design</span>
+                <span>Branding</span>
                 <span className="fz-50 ml-50 stroke icon">*</span>
               </h4>
             </div>
             <div className="item">
               <h4 className="d-flex align-items-center">
-                <span>Amazing Design</span>
+                <span>Corporate Tie Up</span>
                 <span className="fz-50 ml-50 stroke icon">*</span>
               </h4>
             </div>
@@ -40,7 +40,7 @@ function Marquee() {
           <div className="box">
             <div className="item">
               <h4 className="d-flex align-items-center">
-                <span>Amazing Design</span>
+                <span>Public Relations</span>
                 <span className="fz-50 ml-50 stroke icon">*</span>
               </h4>
             </div>

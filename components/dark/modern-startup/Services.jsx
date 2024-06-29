@@ -1,5 +1,5 @@
-import React from 'react';
-import data from '@/data/services.json';
+import React from "react";
+import data from "@/data/services.json";
 
 function Services() {
   return (
@@ -11,12 +11,6 @@ function Services() {
             <h2 className="fw-600 text-u ls1">
               What We <span className="fw-200"> Offer</span>
             </h2>
-            <div className="ml-auto">
-              <a href="/dark/page-services" className="go-more">
-                <span className="text">View all Services</span>
-                <span className="icon ti-arrow-top-right"></span>
-              </a>
-            </div>
           </div>
         </div>
         <div className="row">
@@ -25,20 +19,23 @@ function Services() {
               <div className="item-box mb-30">
                 <div className="d-flex align-items-end">
                   <div>
-                    <span className="num fz-20">01.</span>
+                    <span className="num fz-20">0{i + 1}.</span>
                     <div className="icon mr-80">
                       <img src={item.img} alt="" />
                     </div>
                   </div>
                   <div>
-                    <h5>{item.title}</h5>
+                    <h5>{item.title.split(":")[0]}</h5>
+                    <h6 className="main-color">{item.title.split(":")[1]}</h6>
                     <div className="text mt-30">
                       <p className="mb-80">{item.desc}</p>
                     </div>
-                    <a href={item.link}>
-                      <span>View More</span>
-                      <span className="icon ti-arrow-top-right"></span>
-                    </a>
+                    <div className="more text-u ls1 fz-12">
+                      <a href={item.link}>
+                        View Details
+                        <i className="ml-15 ti-arrow-top-right"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>

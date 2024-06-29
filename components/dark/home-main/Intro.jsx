@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Intro() {
   return (
@@ -10,19 +10,18 @@ function Intro() {
               <h4 className="d-slideup wow">
                 <span className="sideup-text">
                   <span className="up-text">
-                    If you’re looking for a specialist to build a
+                    Looking to amplify your brand's voice in the digital realm?
                   </span>
                 </span>
                 <span className="sideup-text">
                   <span className="up-text">
-                    {' '}
-                    meaningful digital project you can easily
+                    Our experts are just a click away.
                   </span>
                 </span>
                 <span className="sideup-text">
                   <span className="up-text">
-                    {' '}
-                    reach us by clicking{' '}
+                    {" "}
+                    Reach out to us{" "}
                     <span className="underline">
                       <a href="/contact-us" className="main-color">
                         here
@@ -33,9 +32,9 @@ function Intro() {
               </h4>
               <div className="exp mt-80 md-mb15">
                 <h2 className="fz-70 numb-font">
-                  28{' '}
+                  Innovation{" "}
                   <span className="sub-title main-font opacity-7 ml-15">
-                    Years of Experience
+                    at Every Turn
                   </span>
                 </h2>
               </div>
@@ -44,12 +43,11 @@ function Intro() {
           <div className="col-lg-5">
             <div className="text">
               <p>
-                Whether you are a development agency looking to outsource design
-                work, a company in search of a Product Designer or Product Team,
-                a marketing agency that needs a landing page, a startup that
-                wants to launch an app, or an enterprise that plans to rebrand
-                or redesign its website, we welcome any challenge with our arms
-                wide open.
+                Whether you're a brand in need of impactful digital marketing, a
+                company seeking expert PR services, a business looking for
+                innovative ATL & BTL campaigns, or an individual aiming for
+                standout personal promotion, we're here to tackle any challenge
+                with creativity and passion.
               </p>
             </div>
             <div className="main-marq o-hidden mt-100">
@@ -57,13 +55,13 @@ function Intro() {
                 <div className="box">
                   <div className="item">
                     <h4 className="d-flex align-items-center">
-                      <span>UI-UX Design</span>
+                      <span>Home Healthcare</span>
                       <span className="fz-50 ml-50 stroke icon">*</span>
                     </h4>
                   </div>
                   <div className="item">
                     <h4 className="d-flex align-items-center">
-                      <span>Web Development</span>
+                      <span>Public Relations</span>
                       <span className="fz-50 ml-50 stroke icon">*</span>
                     </h4>
                   </div>
@@ -75,7 +73,7 @@ function Intro() {
                   </div>
                   <div className="item">
                     <h4 className="d-flex align-items-center">
-                      <span>Digital Product</span>
+                      <span>Insurance / Corporate Tie Up</span>
                       <span className="fz-50 ml-50 stroke icon">*</span>
                     </h4>
                   </div>
@@ -89,13 +87,13 @@ function Intro() {
                 <div className="box">
                   <div className="item">
                     <h4 className="d-flex align-items-center">
-                      <span>UI-UX Design</span>
+                      <span>Home Healthcare</span>
                       <span className="fz-50 ml-50 stroke icon">*</span>
                     </h4>
                   </div>
                   <div className="item">
                     <h4 className="d-flex align-items-center">
-                      <span>Web Development</span>
+                      <span>Public Relations</span>
                       <span className="fz-50 ml-50 stroke icon">*</span>
                     </h4>
                   </div>
@@ -107,7 +105,7 @@ function Intro() {
                   </div>
                   <div className="item">
                     <h4 className="d-flex align-items-center">
-                      <span>Digital Product</span>
+                      <span>Insurance / Corporate Tie Up</span>
                       <span className="fz-50 ml-50 stroke icon">*</span>
                     </h4>
                   </div>

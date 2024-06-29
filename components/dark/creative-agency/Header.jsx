@@ -33,14 +33,16 @@ function Header() {
           <div className="col-lg-6 valign center-clumn">
             <div>
               <div className="caption main-bg">
-                <h1 className="text-u">We design unique digital experience</h1>
+                <h1 className="text-u">
+                  Content that sparks engagement and drives growth!
+                </h1>
               </div>
               <div className="row justify-content-center mt-30">
                 <div className="col-md-9">
                   <p>
-                    Our team of experts is dedicated to helping you achieve your
-                    digital goals. From website design and development to SEO,
-                    PPC advertising, and social media marketing.
+                    We craft magnetic online strategies that hook your target
+                    audience, reel them in with engaging content, and land them
+                    on your website. Boom!! Digital marketing, simplified.
                   </p>
                 </div>
               </div>

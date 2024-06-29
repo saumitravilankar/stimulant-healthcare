@@ -1,7 +1,16 @@
-import React from 'react';
-import data from '@/data/services.json';
+"use client";
+
+import React, { useMemo } from "react";
+import data from "@/data/services.json";
+import { useParams } from "next/navigation";
 
 function Services2() {
+  const params = useParams();
+
+  const serviceItems = useMemo(() => {
+    return data.filter((item) => !item.link.includes(params.service_name));
+  });
+
   return (
     <section className="services section-padding">
       <div className="container">
@@ -20,13 +29,13 @@ function Services2() {
           </div>
         </div>
         <div className="row">
-          {data.slice(0, 3).map((item, i) => (
+          {serviceItems.slice(0, 3).map((item, i) => (
             <div key={i} className="col-lg-4">
               <div className="item-box radius-15 md-mb30">
                 <div className="icon mb-40 opacity-5">
                   <img src={item.img} alt="" />
                 </div>
-                <h5 className="mb-15">{item.title}</h5>
+                <h5 className="mb-15 main-color">{item.title.split(":")[0]}</h5>
                 <p>{item.desc}</p>
                 <a href={item.link} className="rmore mt-30">
                   <span className="sub-title">Read More</span>

@@ -13,7 +13,7 @@ import Navbar from "@/components/dark/creative-agency/Navbar";
 import Numbers from "@/components/dark/creative-agency/Numbers";
 import Portfolio from "@/components/dark/creative-agency/Portfolio";
 import Services from "@/components/dark/home-main/Services";
-import Services2 from "@/components/dark/creative-agency/Services";
+import Services2 from "@/components/dark/home-main/Services2";
 import Skills from "@/components/dark/creative-agency/Skills";
 import Testimonials from "@/components/dark/creative-agency/Testimonials";
 import Intro from "@/components/dark/home-main/Intro";

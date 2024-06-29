@@ -1,19 +1,29 @@
-'use client';
-import React from 'react';
-import data from '@/data/services.json';
-import { Navigation } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+"use client";
+import React, { useEffect, useState } from "react";
+import data from "@/data/services.json";
+import { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 function Services2() {
+  const [loading, isLoading] = useState(true);
+
+  useEffect(() => {
+    isLoading(false);
+  }, []);
+
+  if (loading) {
+    return;
+  }
+
   const swiperOptions = {
     modules: [Navigation],
     speed: 600,
     loop: true,
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 50,
     centeredSlides: true,
     navigation: {
-      nextEl: '.swiper-arrow-control .swiper-button-next',
-      prevEl: '.swiper-arrow-control .swiper-button-prev',
+      nextEl: ".swiper-arrow-control .swiper-button-next",
+      prevEl: ".swiper-arrow-control .swiper-button-prev",
     },
     breakpoints: {
       // when window width is >= 640px
@@ -74,13 +84,15 @@ function Services2() {
             // data-swiper="container"
             {...swiperOptions}
           >
-            {data.slice(0, 4).map((item, i) => (
+            {data.map((item, i) => (
               <SwiperSlide key={i} className="swiper-slide">
                 <div className="item-box radius-15">
                   <div className="icon mb-40 opacity-5">
                     <img src={item.img} alt="" />
                   </div>
-                  <h5 className="mb-15">{item.title}</h5>
+                  <h5 className="mb-15 main-color">
+                    {item.title.split(":")[0]}
+                  </h5>
                   <p>{item.desc}</p>
                   <a href={item.link} className="rmore mt-30">
                     <span className="sub-title">Read More</span>

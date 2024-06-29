@@ -1,11 +1,11 @@
-'use client';
-import Script from 'next/script';
-import React from 'react';
+"use client";
+import Script from "next/script";
+import React from "react";
 
 function ImageScale() {
   return (
     <section className="img-scale">
-      <div className="image" data-overlay-dark="4">
+      <div className="image" data-overlay-dark="6">
         <div className="img">
           <img
             id="grow"
@@ -16,9 +16,11 @@ function ImageScale() {
           />
         </div>
         <div className="text-u text-center ontop">
-          <h2 className="fz-70 fw-600">
-            Boost Your <span className="fw-300">Business</span> Up <br />
-            <span className="fw-300">Ranking </span> High Lavel
+          <h2 className="fz-70 fw-300">
+            Watch your brand soar with
+            <span className="fw-600">strategic marketing</span> <br /> that
+            ignites <span className="fw-600">enagement </span> and{" "}
+            <span className="fw-600">fuels growth.</span>
           </h2>
         </div>
       </div>

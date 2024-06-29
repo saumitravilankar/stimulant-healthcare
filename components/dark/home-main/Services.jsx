@@ -32,10 +32,10 @@ function Services() {
                 <h6 className="sub-title mb-15 main-color">Why Choose Us</h6>
                 <h2 className="d-slideup wow">
                   <span className="sideup-text">
-                    <span className="up-text">Best creative & modern</span>
+                    <span className="up-text">Your Brand's Ultimate</span>
                   </span>
                   <span className="sideup-text">
-                    <span className="up-text"> digital agency.</span>
+                    <span className="up-text"> Digital Partner.</span>
                   </span>
                 </h2>
               </div>
@@ -43,8 +43,8 @@ function Services() {
                 <div className="col-lg-11">
                   <div className="text">
                     <p>
-                      Taken possession of my entire soul, like these sweet
-                      mornings of spring which i enjoy with my whole.
+                      Empowering Your Brand with Innovative and Tailored Digital
+                      Solutions for Unmatched Growth.
                     </p>
                   </div>
                   <div className="row mt-50 pt-50 bord-thin-top">

@@ -41,7 +41,7 @@ export default function ServicesDetails() {
           <main className="main-bg">
             <Header />
             <Services />
-            <Process />
+            {/* <Process /> */}
             <Testimonials />
             <Services2 />
             <FAQS />
