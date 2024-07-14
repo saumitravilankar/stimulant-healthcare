@@ -45,7 +45,7 @@ export default function ServicesPage() {
             <Marquee />
             <MainFeat />
             <Testimonials />
-            <Brands />
+            {/* <Brands /> */}
             <Blog />
           </main>
           <Footer />

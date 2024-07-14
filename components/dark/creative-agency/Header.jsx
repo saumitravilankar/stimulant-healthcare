@@ -34,7 +34,7 @@ function Header() {
             <div>
               <div className="caption main-bg">
                 <h1 className="text-u">
-                  Content that sparks engagement and drives growth!
+                  Social media management that works like magic!
                 </h1>
               </div>
               <div className="row justify-content-center mt-30">

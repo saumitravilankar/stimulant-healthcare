@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Contact() {
   return (
@@ -8,28 +8,33 @@ function Contact() {
           <div className="col-lg-4 valign">
             <div className="sec-head info-box full-width md-mb80">
               <div className="phone fz-30 fw-600 underline main-color">
-                <a href="#0">+1 840 841 25 69</a>
+                <a href="tel:+919822707304">+91 9822707304</a>
               </div>
               <div className="morinfo mt-50 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Address</h6>
-                <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
+                <p>
+                  Akshardhara Co-Op Hsg Soc, Matoshri Nagar, Upnagar, Nashik.
+                </p>
+                <p>Zip code - 422006</p>
               </div>
               <div className="morinfo mt-30 pb-30 bord-thin-bottom">
                 <h6 className="mb-15">Email</h6>
-                <p>Support@uithemez.com</p>
+                <a href="mailto:stimulanthealthcare.nsk@gmail.com">
+                  stimulanthealthcare.nsk@gmail.com
+                </a>
               </div>
 
               <div className="social-icon-circle mt-50">
-                <a href="#0">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/profile.php?id=61560604153778"
+                >
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-dribbble"></i>
-                </a>
-                <a href="#0">
-                  <i className="fab fa-behance"></i>
-                </a>
-                <a href="#0">
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/stimulant_healthcare/"
+                >
                   <i className="fab fa-instagram"></i>
                 </a>
               </div>

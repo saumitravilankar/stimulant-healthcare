@@ -1,18 +1,15 @@
 import generateStylesheetObject from "@/common/generateStylesheetsObject";
-import Footer from "@/components/dark/blog-list/Footer";
-import Header from "@/components/dark/about2/Header";
+
+import Recent from "@/components/dark/blog-details/Recent";
 import Lines from "@/components/dark/common/Lines";
 import ProgressScroll from "@/components/dark/common/ProgressScroll";
 import Cursor from "@/components/dark/common/cusor";
 import LoadingScreen from "@/components/dark/common/loader";
 import Navbar from "@/components/dark/creative-agency/Navbar";
 import Script from "next/script";
-import Intro from "@/components/dark/about2/Intro";
-import Marquee from "@/components/dark/services/Marquee";
-import Intro2 from "@/components/dark/about/Intro2";
-import Testimonials from "@/components/dark/creative-agency/Testimonials";
-import Team from "@/components/dark/about/Team";
-import Blog from "@/components/dark/about/Blog";
+import Footer from "@/components/dark/blog-list/Footer";
+import TermsHeader from "@/components/dark/blog-details/TermsHeader";
+import TermsContent from "@/components/dark/blog-details/TermsContent";
 
 export const metadata = {
   title: "Stimulant Healthcare Pvt. Ltd.",
@@ -28,30 +25,23 @@ export const metadata = {
   },
 };
 
-export default function BlogList() {
+export default function TermsAndCondition() {
   return (
     <body>
       <LoadingScreen />
       <Cursor />
       <ProgressScroll />
       <Lines />
-
       <div id="smooth-wrapper">
         <Navbar />
         <div id="smooth-content">
           <main className="main-bg">
-            <Header />
-            <Intro />
-            <Marquee />
-            <Intro2 />
-            <Testimonials />
-            {/* <Team /> */}
-            <Blog />
+            <TermsHeader />
+            <TermsContent />
           </main>
           <Footer />
         </div>
       </div>
-
       <Script
         src="/dark/assets/js/ScrollTrigger.min.js"
         strategy="beforeInteractive"

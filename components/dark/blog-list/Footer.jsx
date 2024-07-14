@@ -40,23 +40,19 @@ function Footer() {
             <div className="col-lg-7">
               <div className="social-media d-flex justify-content-end">
                 <ul className="rest d-flex align-items-center fz-14">
-                  <li className="hover-this cursor-pointer">
-                    <a href="#0" className="hover-anim">
+                  <li className="cursor-pointer">
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/profile.php?id=61560604153778"
+                    >
                       <i className="fab fa-facebook-f mr-10"></i> Facebook
                     </a>
                   </li>
-                  <li className="hover-this cursor-pointer ml-50">
-                    <a href="#0" className="hover-anim">
-                      <i className="fab fa-dribbble mr-10"></i> Dribbble
-                    </a>
-                  </li>
-                  <li className="hover-this cursor-pointer ml-50">
-                    <a href="#0" className="hover-anim">
-                      <i className="fab fa-linkedin-in mr-10"></i> LinkedIn
-                    </a>
-                  </li>
-                  <li className="hover-this cursor-pointer ml-50">
-                    <a href="#0" className="hover-anim">
+                  <li className="cursor-pointer ml-50">
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/stimulant_healthcare/"
+                    >
                       <i className="fab fa-instagram mr-10"></i> Instagram
                     </a>
                   </li>
@@ -82,18 +78,20 @@ function Footer() {
                 <div className="info mt-80 d-flex align-items-center">
                   <div>
                     <a
-                      href="#0"
+                      href="mailto:stimulanthealthcare.nsk@gmail.com"
                       className="butn butn-md butn-bord-thin radius-30"
                     >
-                      <span className="text">Support@Website.com</span>
+                      <span className="text">
+                        stimulanthealthcare.nsk@gmail.com
+                      </span>
                     </a>
                   </div>
                   <div>
                     <a
-                      href="#0"
+                      href="tel:+919822707304"
                       className="butn butn-md butn-bord-thin radius-30 ml-30"
                     >
-                      <span className="text">+2 456 (343) 24 45</span>
+                      <span className="text">+91 9822707304</span>
                     </a>
                   </div>
                 </div>
@@ -122,16 +120,16 @@ function Footer() {
                   <div className="col-6">
                     <ul className="rest fz-14">
                       <li className="mb-15">
-                        <a href="#">Term & Conditions</a>
+                        <a href="/terms-and-conditions">Term & Conditions</a>
                       </li>
                       <li className="mb-15">
-                        <a href="#">Privacy policy</a>
+                        <a href="/privacy-policy">Privacy policy</a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="subscribe-minimal mt-50">
+              {/* <div className="subscribe-minimal mt-50">
                 <form action="contact.php">
                   <div className="form-group rest">
                     <input type="email" placeholder="Type Your Email" />
@@ -140,11 +138,13 @@ function Footer() {
                     </button>
                   </div>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="text-center pt-30 pb-30 main-bg mt-80">
-            <p className="fz-14">© 2024 All Rights Reserved By Stimulant Healthcare Private Limited </p>
+            <p className="fz-14">
+              © 2024 All Rights Reserved By Stimulant Healthcare Private Limited{" "}
+            </p>
           </div>
         </div>
       </div>

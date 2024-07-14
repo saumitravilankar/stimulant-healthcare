@@ -1,26 +1,32 @@
 [
   {
     "img": "/dark/assets/imgs/testim/t1.jpg",
-    "name": "Adam Beckley",
-    "subName": "Founder & CEO",
-    "desc": "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working  with a team that can get the job done"
+    "name": "Dr. Susan Kim",
+    "subName": "Cardiologist,  Kim Heart Institute",
+    "desc": "Communication is crucial, and Stimulant Healthcare understands it. They kept us updated throughout the process, outlining complex strategies straightforwardly. Their honesty and skill made the whole procedure stress-free."
+  },
+  {
+    "img": "/dark/assets/imgs/testim/t1.jpg",
+    "name": "",
+    "subName": "CEO, Thrive Fitness",
+    "desc": "Before Stimulant Healthcare, our web presence was a ghost town. We are now recognized as a health and wellness industry leader. Their data-driven approach and magic make for a successful combination."
   },
   {
     "img": "/dark/assets/imgs/testim/t2.jpg",
-    "name": "Adam Beckley",
-    "subName": "Founder & CEO",
-    "desc": "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working  with a team that can get the job done"
+    "name": "",
+    "subName": "CMO, Calming Naturals",
+    "desc": " Stimulant Healthcare does more than simply speak strategy; it produces the results. Our website traffic and quality leads have increased significantly as a result of their competence in SEO and targeted advertising."
   },
   {
     "img": "/dark/assets/imgs/testim/t3.jpg",
-    "name": "Adam Beckley",
-    "subName": "Founder & CEO",
-    "desc": "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working  with a team that can get the job done"
+    "name": "",
+    "subName": "COO, Serenity Spa",
+    "desc": "The team at Stimulant Healthcare is like an extension of our own. They're always available, responsive, and proactive in suggesting new ideas to keep us ahead all the time."
   },
   {
     "img": "/dark/assets/imgs/testim/t4.jpg",
-    "name": "Adam Beckley",
-    "subName": "Founder & CEO",
-    "desc": "I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working  with a team that can get the job done"
+    "name": "",
+    "subName": "Founder of Happy Belly Organics",
+    "desc": "Stimulant Healthcare enabled us to access a whole new audience online. We are witnessing a significant increase in brand awareness and consumer interaction as a result of their social media marketing abilities."
   }
 ]

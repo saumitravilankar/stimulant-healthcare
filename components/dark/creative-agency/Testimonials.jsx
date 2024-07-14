@@ -1,8 +1,8 @@
-'use client';
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper';
-import data from '@/data/testimonials.json';
+"use client";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
+import data from "@/data/testimonials.json";
 
 function Testimonials() {
   const swiperOptions = {
@@ -13,8 +13,8 @@ function Testimonials() {
     speed: 1000,
     loop: true,
     navigation: {
-      nextEl: '.swiper-arrow-control .swiper-button-next',
-      prevEl: '.swiper-arrow-control .swiper-button-prev',
+      nextEl: ".swiper-arrow-control .swiper-button-next",
+      prevEl: ".swiper-arrow-control .swiper-button-prev",
     },
   };
   return (
@@ -43,7 +43,7 @@ function Testimonials() {
                 loop={true}
                 {...swiperOptions}
               >
-                {data.slice(0, 2).map((item, i) => (
+                {data.map((item, i) => (
                   <SwiperSlide key={i}>
                     <div className="item">
                       <div className="content">
@@ -69,11 +69,6 @@ function Testimonials() {
                         </div>
                         <div className="info d-flex align-items-center pt-40 mt-40 bord-thin-top">
                           <div>
-                            <div className="fit-img circle">
-                              <img src={item.img} alt="" />
-                            </div>
-                          </div>
-                          <div className="ml-20">
                             <h5>{item.name}</h5>
                             <span className="sub-title main-color">
                               {item.subName}

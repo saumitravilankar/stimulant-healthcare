@@ -16,12 +16,7 @@ function Intro() {
           <div className="col-lg-7">
             <div className="text">
               <h4>
-                Whether you are a development agency looking to outsource design
-                work, a company in search of a Product Designer or Product Team,
-                a marketing agency that needs a landing page, a startup that
-                wants to launch an app, or an enterprise that plans to rebrand
-                or redesign its website, we welcome any challenge with our arms
-                wide open.
+              Our story begins with a dream to make the digital world more engaging. Since then, we've helped numerous businesses create their magic online, and our enthusiasm for innovation puts us at the forefront of the ever-changing marketing scene.
               </h4>
             </div>
           </div>

@@ -54,7 +54,7 @@ export default function CreativeAgency() {
             <Numbers />
             {/* <Portfolio /> */}
             <Testimonials />
-            <Brands />
+            {/* <Brands /> */}
             <ImageScale />
             <Blog />
           </main>

@@ -1,6 +1,6 @@
-'use client';
-import loadBackgroudImages from '@/common/loadBackgroudImages';
-import React, { useEffect } from 'react';
+"use client";
+import loadBackgroudImages from "@/common/loadBackgroudImages";
+import React, { useEffect } from "react";
 
 function Intro2() {
   useEffect(() => {
@@ -20,8 +20,8 @@ function Intro2() {
                   <h4>Our Mission</h4>
                   <div className="text mt-30">
                     <p>
-                      Our journey is defined by a rich tapestry of achievements
-                      and values that set us apart.
+                      We create exciting stories online that supercharge brands
+                      through powerful marketing.
                     </p>
                   </div>
                 </div>
@@ -46,8 +46,7 @@ function Intro2() {
                   <h4>Our Vision</h4>
                   <div className="text mt-30">
                     <p>
-                      Our journey is defined by a rich tapestry of achievements
-                      and values that set us apart.
+                      A world where every brand tells its story and gets heard loud and clear.
                     </p>
                   </div>
                 </div>
@@ -65,8 +64,7 @@ function Intro2() {
                     <h4>Why Us?</h4>
                     <div className="text mt-30">
                       <p>
-                        Our journey is defined by a rich tapestry of
-                        achievements and values that set us apart.
+                      We're smart, funny, and dedicated to delivering real results.
                       </p>
                     </div>
                   </div>

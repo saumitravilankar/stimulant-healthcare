@@ -49,25 +49,22 @@ function Services() {
                   </div>
                   <div className="row mt-50 pt-50 bord-thin-top">
                     <div className="col-sm-6">
-                      <div className="item d-flex align-items-center sm-mb30">
-                        <h2 className="fz-60 line-height-1">
-                          <span className="numb-count">52</span>
+                      <div className="item d-flex align-items-center justify-content-center md-mb50">
+                        <h2 className="fz-80 line-height-1">
+                          10<span className="fz-50">+</span>
                         </h2>
                         <span className="sub-title opacity-7 ml-30">
-                          Projects <br />
-                          Completed
+                          Years of <br /> Experience
                         </span>
                       </div>
                     </div>
                     <div className="col-sm-6">
-                      <div className="item d-flex align-items-center">
-                        <h2 className="fz-60 line-height-1">
-                          <span className="numb-count">6</span>k
-                          <span className="fz-30">+</span>
+                      <div className="item d-flex align-items-center justify-content-center md-mb50">
+                        <h2 className="fz-80 line-height-1">
+                          95<span className="fz-40">%</span>
                         </h2>
                         <span className="sub-title opacity-7 ml-30">
-                          Customers <br />
-                          Satisfaction
+                          Success <br /> Rate
                         </span>
                       </div>
                     </div>
