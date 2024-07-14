@@ -289,29 +289,28 @@ function Navbar() {
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Address</h6>
                   <h5>
-                    541 Melville Geek, <br /> Palo Alto, CA 94301
+                    Akshardhara Co-Op Hsg Soc,
+                    <br /> Matoshri Nagar, Upnagar, Nashik
                   </h5>
                 </div>
                 <div className="item mb-50">
                   <h6 className="sub-title mb-15 opacity-7">Social Media</h6>
                   <ul className="rest social-text">
                     <li className="mb-10">
-                      <a href="#0" className="hover-this">
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com/profile.php?id=61560604153778"
+                        className="hover-this"
+                      >
                         <span className="hover-anim">Facebook</span>
                       </a>
                     </li>
-                    <li className="mb-10">
-                      <a href="#0" className="hover-this">
-                        <span className="hover-anim">Twitter</span>
-                      </a>
-                    </li>
-                    <li className="mb-10">
-                      <a href="#0" className="hover-this">
-                        <span className="hover-anim">LinkedIn</span>
-                      </a>
-                    </li>
                     <li>
-                      <a href="#0" className="hover-this">
+                      <a
+                        target="_blank"
+                        href="https://www.instagram.com/stimulant_healthcare/"
+                        className="hover-this"
+                      >
                         <span className="hover-anim">Instagram</span>
                       </a>
                     </li>
@@ -320,10 +319,12 @@ function Navbar() {
                 <div className="item mb-40">
                   <h6 className="sub-title mb-15 opacity-7">Contact Us</h6>
                   <h5>
-                    <a href="#0">Hello@email.com</a>
+                    <a href="mailto:stimulanthealthcare.nsk@gmail.com">
+                      stimulanthealthcare.nsk@gmail.com
+                    </a>
                   </h5>
                   <h5 className="underline mt-10">
-                    <a href="#0">+1 840 841 25 69</a>
+                    <a href="tel:+919822707304">+91 9822707304</a>
                   </h5>
                 </div>
               </div>

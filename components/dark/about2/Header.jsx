@@ -18,18 +18,16 @@ function Header() {
   return (
     <div className="header page-header section-padding">
       <div className="container pt-100">
-        <div className="row">
-          <div className="col-lg-10">
-            <div className="caption">
-              <h2>
-                We are obsessed with pixels and ROI (in a good manner). We are a crack team of digital marketing gurus who create campaigns that convert heads and traffic into leads (and, yes, sales).
-              </h2>
-              <div className="mt-30">
-                <a href="/">Home</a>
-                <span className="padding-rl-20">|</span>
-                <span className="main-color">About Us</span>
-              </div>
-            </div>
+        <div className="caption">
+          <h2>
+            We are obsessed with pixels and ROI (in a good manner). We are a
+            crack team of digital marketing gurus who create campaigns that
+            convert heads and traffic into leads (and, yes, sales).
+          </h2>
+          <div className="mt-30">
+            <a href="/">Home</a>
+            <span className="padding-rl-20">|</span>
+            <span className="main-color">About Us</span>
           </div>
         </div>
       </div>

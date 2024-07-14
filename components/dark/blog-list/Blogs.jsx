@@ -10,7 +10,7 @@ function Blogs() {
             <div key={index} className="col-lg-4">
               <div className="item sub-bg mb-40">
                 <div className="img">
-                  <img src={blog.img} alt="" />
+                  <img src={blog.img} alt={blog.tag} />
                   <div className="tag sub-bg">
                     <span>{blog.tag}</span>
                     <div className="shap-right-bottom">

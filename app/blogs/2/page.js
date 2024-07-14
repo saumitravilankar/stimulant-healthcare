@@ -1,23 +1,19 @@
 import generateStylesheetObject from "@/common/generateStylesheetsObject";
+
+import Recent from "@/components/dark/blog-details/Recent";
+import Blog from "@/components/dark/blog-details/Blog";
+import Slider from "@/components/dark/blog-details/Slider";
 import Lines from "@/components/dark/common/Lines";
 import ProgressScroll from "@/components/dark/common/ProgressScroll";
 import Cursor from "@/components/dark/common/cusor";
 import LoadingScreen from "@/components/dark/common/loader";
-import Blog from "@/components/dark/about/Blog";
-import Brands from "@/components/dark/creative-agency/Brands";
-import Footer from "@/components/dark/blog-list/Footer";
-import Header from "@/components/dark/creative-agency/Header";
-import ImageScale from "@/components/dark/creative-agency/ImageScale";
-import Marquee from "@/components/dark/home-main/Marquee";
 import Navbar from "@/components/dark/creative-agency/Navbar";
-import Numbers from "@/components/dark/creative-agency/Numbers";
-import Portfolio from "@/components/dark/creative-agency/Portfolio";
-import Services from "@/components/dark/home-main/Services";
-import Services2 from "@/components/dark/home-main/Services2";
-import Skills from "@/components/dark/creative-agency/Skills";
-import Testimonials from "@/components/dark/creative-agency/Testimonials";
-import Intro from "@/components/dark/home-main/Intro";
 import Script from "next/script";
+import Footer from "@/components/dark/blog-list/Footer";
+import BlogOneSlider from "@/components/dark/blog-details/BlogOneSlider";
+import BlogOneContent from "@/components/dark/blog-details/BlogOneContent";
+import BlogTwoSlider from "@/components/dark/blog-details/BlogTwoSlider";
+import BlogTwoContent from "@/components/dark/blog-details/BlogTwoContent";
 
 export const metadata = {
   title: "Stimulant Healthcare Pvt. Ltd.",
@@ -33,35 +29,24 @@ export const metadata = {
   },
 };
 
-export default function CreativeAgency() {
+export default function BlogClassic() {
   return (
     <body>
       <LoadingScreen />
       <Cursor />
       <ProgressScroll />
       <Lines />
-
       <div id="smooth-wrapper">
         <Navbar />
         <div id="smooth-content">
-          <main className="main-bg pt-120 o-hidden">
-            <Header />
-            <Intro />
-            <Services />
-            <Services2 />
-            {/* <Marquee /> */}
-            <Skills />
-            <Numbers />
-            {/* <Portfolio /> */}
-            <Testimonials />
-            {/* <Brands /> */}
-            <ImageScale />
-            <Blog />
+          <main className="main-bg">
+            <BlogTwoSlider />
+            <BlogTwoContent />
+            <Recent />
           </main>
           <Footer />
         </div>
       </div>
-
       <Script
         src="/dark/assets/js/ScrollTrigger.min.js"
         strategy="beforeInteractive"
