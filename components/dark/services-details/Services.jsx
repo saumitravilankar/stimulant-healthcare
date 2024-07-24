@@ -28,7 +28,7 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className="row serv-imgs mt-80">
+        {/* <div className="row serv-imgs mt-80">
           <div className="col-lg-4">
             <div className="img o-hidden radius-15 fit-img md-mb30">
               <img src="/dark/assets/imgs/intro/01.jpg" alt="" />
@@ -44,7 +44,7 @@ function Services() {
               />
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="row mt-80">
           <div className="col-lg-4">
             <div className="text md-mb50">
