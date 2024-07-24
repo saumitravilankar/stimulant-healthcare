@@ -1,6 +1,71 @@
-import React from "react";
+"use client";
+
+import { useState } from "react";
+import axios from "axios";
+import toast from "react-hot-toast";
 
 function Contact() {
+  const [loading, setLoading] = useState(false);
+  const [username, setUserName] = useState("");
+  const [contact, setContact] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [errors, setErrors] = useState({});
+
+  const validateForm = () => {
+    const newErrors = {};
+
+    if (!username.trim()) {
+      newErrors.username = "Name is required";
+    }
+
+    if (!email.trim()) {
+      newErrors.email = "Email is required";
+    } else if (!/\S+@\S+\.\S+/.test(email)) {
+      newErrors.email = "Email is invalid";
+    }
+
+    if (!contact.trim()) {
+      newErrors.contact = "Contact number is required";
+    } else if (!/^\d{10}$/.test(contact)) {
+      newErrors.contact = "Contact number should be 10 digits";
+    }
+
+    if (!message.trim()) {
+      newErrors.message = "Message is required";
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+  async function onSubmit(e) {
+    e.preventDefault();
+    if (validateForm()) {
+      setLoading(true);
+      const data = {
+        username,
+        contact,
+        email,
+        message,
+      };
+      try {
+        const response = await axios.post(`/api/sendMail`, data);
+        console.log(response.data);
+        toast.success("Thank you for your response, we will get back to you!");
+        setUserName("");
+        setContact("");
+        setEmail("");
+        setMessage("");
+      } catch (error) {
+        console.error("Error sending message:", error);
+        toast.error("Failed to send message. Please try again.");
+      } finally {
+        setLoading(false);
+      }
+    }
+  }
+
   return (
     <section className="contact section-padding">
       <div className="container">
@@ -48,14 +113,8 @@ function Contact() {
                   Send a <span className="fw-200">message</span>
                 </h3>
               </div>
-              <form
-                id="contact-form"
-                className="form2"
-                method="post"
-                action="contact.php"
-              >
+              <form id="contact-form" className="form2" onSubmit={onSubmit}>
                 <div className="messages"></div>
-
                 <div className="controls row">
                   <div className="col-lg-6">
                     <div className="form-group mb-30">
@@ -64,8 +123,12 @@ function Contact() {
                         type="text"
                         name="name"
                         placeholder="Name"
-                        required="required"
+                        value={username}
+                        onChange={(e) => setUserName(e.target.value)}
                       />
+                      {errors.username && (
+                        <div className="error-message">{errors.username}</div>
+                      )}
                     </div>
                   </div>
 
@@ -76,8 +139,12 @@ function Contact() {
                         type="email"
                         name="email"
                         placeholder="Email"
-                        required="required"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                       />
+                      {errors.email && (
+                        <div className="error-message">{errors.email}</div>
+                      )}
                     </div>
                   </div>
 
@@ -85,10 +152,15 @@ function Contact() {
                     <div className="form-group mb-30">
                       <input
                         id="form_subject"
-                        type="text"
+                        type="tel"
                         name="subject"
-                        placeholder="Subject"
+                        placeholder="Contact Number"
+                        value={contact}
+                        onChange={(e) => setContact(e.target.value)}
                       />
+                      {errors.contact && (
+                        <div className="error-message">{errors.contact}</div>
+                      )}
                     </div>
                   </div>
 
@@ -99,15 +171,22 @@ function Contact() {
                         name="message"
                         placeholder="Message"
                         rows="4"
-                        required="required"
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
                       ></textarea>
+                      {errors.message && (
+                        <div className="error-message">{errors.message}</div>
+                      )}
                     </div>
                     <div className="mt-30">
                       <button
                         type="submit"
+                        disabled={loading}
                         className="butn butn-full butn-bord radius-30"
                       >
-                        <span className="text">Let&apos;s Talk</span>
+                        <span className="text">
+                          {loading ? "Sending..." : "Let's Talk"}
+                        </span>
                       </button>
                     </div>
                   </div>
