@@ -49,11 +49,11 @@ function Testimonials() {
                 {data.map((item, i) => (
                   <SwiperSlide key={i}>
                     <div className="item d-flex align-items-center">
-                      <div>
+                      {/* <div>
                         <div className="fit-img circle">
                           <img src={item.img} alt="" />
                         </div>
-                      </div>
+                      </div> */}
                       <div className="content ml-100">
                         <div className="text">
                           <svg

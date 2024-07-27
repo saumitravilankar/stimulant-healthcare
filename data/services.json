@@ -1,5 +1,7 @@
 [
   {
+    "verticalImg": "/dark/assets/services/01.jpg",
+    "horizontalImg": "/dark/assets/services/1.jpg",
     "title": "Digital Marketing: Megaphone to the Millennial",
     "img": "/dark/assets/imgs/serv-icons/0.png",
     "desc": "The digital powerhouse for your brand. Every detail matters.",
@@ -15,6 +17,8 @@
     ]
   },
   {
+    "verticalImg": "/dark/assets/services/02.jpg",
+    "horizontalImg": "/dark/assets/services/2.jpg",
     "title": "Public Relations: Spin Doctors with Superpowers",
     "img": "/dark/assets/imgs/serv-icons/1.png",
     "desc": "Whisper smart, roar loud. We're your brand amplification experts.",
@@ -30,6 +34,8 @@
     ]
   },
   {
+    "verticalImg": "/dark/assets/services/01.jpg",
+    "horizontalImg": "/dark/assets/services/1.jpg",
     "title": "ATL & BTL Activities: Think Outside the Billboard",
     "img": "/dark/assets/imgs/serv-icons/2.png",
     "desc": "We don't just do billboards, we bring marketing experiences that leave a lasting impression.",
@@ -45,6 +51,8 @@
     ]
   },
   {
+    "verticalImg": "/dark/assets/services/04.jpg",
+    "horizontalImg": "/dark/assets/services/4.jpg",
     "title": "Personal Promotion: You, the Spotlight Stealer",
     "img": "/dark/assets/imgs/serv-icons/3.png",
     "desc": "We help you become the captivating brand YOU were always meant to be.",
@@ -60,6 +68,8 @@
     ]
   },
   {
+    "verticalImg": "/dark/assets/services/05.jpg",
+    "horizontalImg": "/dark/assets/services/5.jpg",
     "title": "Branding: We Don't Just Make Logos, We Craft Identities",
     "img": "/dark/assets/imgs/serv-icons/4.png",
     "desc": "We'll give your brand a personality so strong, it'll need its own passport.",
@@ -75,6 +85,8 @@
     ]
   },
   {
+    "verticalImg": "/dark/assets/services/06.jpg",
+    "horizontalImg": "/dark/assets/services/6.jpg",
     "title": "Neighborhood Activities: Building Bridges, Not Walls",
     "img": "/dark/assets/imgs/serv-icons/5.png",
     "desc": "Sparking dialogue, fostering understanding, one event at a time.",
@@ -90,6 +102,8 @@
     ]
   },
   {
+    "verticalImg": "/dark/assets/services/07.jpg",
+    "horizontalImg": "/dark/assets/services/7.jpg",
     "title": "Insurance / Corporate Tie Up: Peace of Mind, Business Advantage",
     "img": "/dark/assets/imgs/serv-icons/6.png",
     "desc": "We don't just sell insurance, we create win-win partnerships that empower your business.",
@@ -105,6 +119,8 @@
     ]
   },
   {
+    "verticalImg": "/dark/assets/services/08.jpg",
+    "horizontalImg": "/dark/assets/services/8.jpg",
     "title": "NABH / MJPJAY Quality Accreditations: More Than a Badge, a Commitment",
     "img": "/dark/assets/imgs/serv-icons/1.png",
     "desc": "Behind the badges, real people make a real difference.",
@@ -120,6 +136,8 @@
     ]
   },
   {
+    "verticalImg": "/dark/assets/services/09.jpg",
+    "horizontalImg": "/dark/assets/services/9.jpg",
     "title": "Home Healthcare: Comfort & Care, Delivered to Your Doorstep",
     "img": "/dark/assets/imgs/serv-icons/2.png",
     "desc": "Comfort and care delivered straight to your door (with a smile, of course!).",

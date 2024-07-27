@@ -9,6 +9,7 @@ import Header from "@/components/dark/contact3/Header";
 import Navbar from "@/components/dark/creative-agency/Navbar";
 import Script from "next/script";
 import Map from "@/components/dark/contact3/Map";
+import { Toaster } from "react-hot-toast";
 
 export const metadata = {
   title: "Stimulant Healthcare Pvt. Ltd.",
@@ -31,7 +32,7 @@ export default function Contact3Page() {
       <Cursor />
       <ProgressScroll />
       <Lines />
-
+      <Toaster position="top-center" />
       <div id="smooth-wrapper">
         <Navbar />
         <div id="smooth-content">

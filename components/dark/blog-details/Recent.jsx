@@ -9,9 +9,9 @@ function Recent() {
   const filteredData = useMemo(() => {
     const pathnameArr = pathname.split("/");
     const currentBlogId = pathnameArr[pathnameArr.length - 2];
-    console.log(currentBlogId);
+    // console.log(currentBlogId);
     const dataToShow = data.filter((dataItem) => {
-      console.log(dataItem);
+      // console.log(dataItem);
       return dataItem.id !== parseInt(currentBlogId);
     });
     return dataToShow;

@@ -31,13 +31,13 @@ function Services() {
         <div className="row serv-imgs mt-80">
           <div className="col-lg-4">
             <div className="img o-hidden radius-15 fit-img md-mb30">
-              <img src="/dark/assets/imgs/intro/01.jpg" alt="" />
+              <img src={serviceItem.verticalImg} alt="" />
             </div>
           </div>
           <div className="col-lg-8">
             <div className="img o-hidden radius-15">
               <img
-                src="/dark/assets/imgs/background/3.jpg"
+                src={serviceItem.horizontalImg}
                 alt=""
                 data-speed="auto"
                 data-lag="0"
