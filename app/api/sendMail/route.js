@@ -28,7 +28,7 @@ export async function POST(req) {
 
     const messageToSend = {
       from: process.env.USER_EMAIL,
-      to: "saumitra.vilankar77@gmail.com",
+      to: "stimulanthealthcare.nsk@gmail.com",
 
       subject: "New Enquiry From Stimulant Healthcare Private Limited Website.",
       text: "",
@@ -46,6 +46,7 @@ export async function POST(req) {
       { status: 200 }
     );
   } catch (error) {
+    console.log(error);
     return NextResponse.json(
       {
         Message: "Something went wrong",
