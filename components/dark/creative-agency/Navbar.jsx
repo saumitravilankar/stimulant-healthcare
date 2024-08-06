@@ -314,6 +314,15 @@ function Navbar() {
                         <span className="hover-anim">Instagram</span>
                       </a>
                     </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/company/stimulant-healthcare-pvt-ltd/"
+                        className="hover-this"
+                      >
+                        <span className="hover-anim">LinkedIn</span>
+                      </a>
+                    </li>
                   </ul>
                 </div>
                 <div className="item mb-40">

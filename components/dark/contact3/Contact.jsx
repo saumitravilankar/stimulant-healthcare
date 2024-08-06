@@ -102,6 +102,12 @@ function Contact() {
                 >
                   <i className="fab fa-instagram"></i>
                 </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/stimulant-healthcare-pvt-ltd/"
+                >
+                  <i className="fab fa-linkedin"></i>
+                </a>
               </div>
             </div>
           </div>

@@ -56,6 +56,14 @@ function Footer() {
                       <i className="fab fa-instagram mr-10"></i> Instagram
                     </a>
                   </li>
+                  <li className="cursor-pointer ml-50">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/company/stimulant-healthcare-pvt-ltd/"
+                    >
+                      <i className="fab fa-linkedin mr-10"></i> LinkedIn
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
