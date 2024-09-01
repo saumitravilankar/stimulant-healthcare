@@ -187,6 +187,48 @@ function MainFeat() {
               </ul>
             </div>
           </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="item mb-50">
+              <h5 className="mb-15 main-color">
+                Cleaning & House Keeping Services
+              </h5>
+              <ul className="rest dot-list">
+                <li className="mb-10">
+                  Industrial & Corporate house keeping services
+                </li>
+                <li className="mb-10">
+                  Solar panel cleaning, washing & sales service
+                </li>
+                <li className="mb-10">Water tank cleaning</li>
+                <li className="mb-10">
+                  Building parking, Terrace washing & cleaning services
+                </li>
+                <li className="mb-10">
+                  Door step washing & internal cleaning services
+                </li>
+                <li className="mb-10">Leakage and water proofing services</li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="item mb-50">
+              <h5 className="mb-15 main-color">
+                Other services & work assistance
+              </h5>
+              <ul className="rest dot-list">
+                <li className="mb-10">Plumbing & drainage services</li>
+                <li className="mb-10">
+                  Construction & Repairs and Maintenance Work
+                </li>
+                <li className="mb-10">Pest control service</li>
+                <li className="mb-10">
+                  Labour contract service/Security Service
+                </li>
+                <li className="mb-10">Building painting work</li>
+                <li className="mb-10">Generator renting service</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
